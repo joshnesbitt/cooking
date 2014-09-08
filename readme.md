@@ -2,7 +2,7 @@
 
 ## Contents
 
-* [Slow Cooker Pulled Pork](/?)
+* [Slow Cooker Pulled Pork](https://github.com/joshnesbitt/recipes/blob/master/recipes/slow-cooker-pulled-pork.md)
 
 ## What is this?
 
