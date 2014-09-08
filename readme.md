@@ -13,37 +13,38 @@ This is a collection of recipes I've gathered over the years. At the moment ther
 
 ## Preview
 
+_Slow cooked pork belly..._
+
 ![Food](http://photos-a.ak.instagram.com/hphotos-ak-xfa1/10584800_1510832215796024_22520240_n.jpg)
 
-_Slow cooked pork belly._
+_Chunky avocado and bacon salad with pine nuts..._
 
 ![Food](http://photos-a.ak.instagram.com/hphotos-ak-xaf1/10598622_1465201643765256_1998931435_n.jpg)
 
-_Chunky avocado and bacon salad with pine nuts._
+_Shrimp and chorizo fusilli lunghi col buco with grilled squid..._
 
 ![Food](http://photos-c.ak.instagram.com/hphotos-ak-xaf1/10601869_811069952246466_2064807949_n.jpg)
 
-_Shrimp and chorizo fusilli lunghi col buco with grilled squid._
+_BBQ'ed leg of lamb..._
 
 ![Food](http://photos-b.ak.instagram.com/hphotos-ak-xaf1/10560906_809984495712249_1132484712_n.jpg)
 
-_BBQ'ed leg of lamb._
+_Sesame and soy pork..._
 
 ![Food](http://photos-e.ak.instagram.com/hphotos-ak-xpf1/10468000_1448880285389092_1369333379_n.jpg)
 
-_Sesame and soy pork._
+_"Proper" pork belly..._
 
 ![Food](http://photos-h.ak.instagram.com/hphotos-ak-xfp1/10449003_1434102240204039_2079165677_n.jpg)
 
-_"Proper" pork belly._
+_Beef strips with Moroccan cous cous and tzatziki..._
 
 ![Food](http://photos-a.ak.instagram.com/hphotos-ak-xpa1/10432045_1519132194975224_103371450_n.jpg)
 
-_.Beef strips with Moroccan cous cous and tzatziki._
+_Frank..._
 
 ![Food](http://photos-c.ak.instagram.com/hphotos-ak-xap1/925518_256229967911106_1122021019_n.jpg)
 
-_Frank._
 
 
 ## License
