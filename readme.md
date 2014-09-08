@@ -41,10 +41,9 @@ _Slow cooked pork belly (before)..._
 
 ![Slow cooked pork belly (before)](http://photos-a.ak.instagram.com/hphotos-ak-xfa1/10584800_1510832215796024_22520240_n.jpg)
 
-_Frank..._
+_Frank (in a tank)..._
 
 ![Frank](http://photos-c.ak.instagram.com/hphotos-ak-xap1/925518_256229967911106_1122021019_n.jpg)
-
 
 
 ## License
