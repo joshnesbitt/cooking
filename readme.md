@@ -6,6 +6,8 @@
 
 ## What is this?
 
+This is a collection of recipes I've gathered over the years. At the moment there's only one, so I'm not that good at it. I do however like [cooking a lot](http://instagram.com/joshnesbitt).
+
 ## License
 
 The MIT License (MIT)
