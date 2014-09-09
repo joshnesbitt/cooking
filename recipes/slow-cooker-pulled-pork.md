@@ -15,20 +15,25 @@
 * Add the sauce back to the tray to rehydrate the pork and give it a juicy consistency
 * Get stuck in
 
-## Components
+## Ingredients
 
-* Large, boned pork shoulder
-* Brown sugar
-* Salt flakes
-* Pepper
-* Olive oil (extra virgin)
-* Red onions
-* Brown sugar
-* Smoked paprika
-* Passata / thick tomato juice
-* Tabasco sauce (chipotole, smokey)
-* Cayenne pepper
-* Chillies (or a scotch bonnet if you prefer)
+### Meat & Rub
+
+* Boned pork shoulder - 1 large cut
+* Brown sugar - 50g
+* Salt flakes - 10g
+* Pepper - 10g
+* Olive oil (extra virgin) - Drizzle
+* Red onions - 2 large
+
+### Sauce
+
+* Brown sugar - 50g
+* Smoked paprika - 1 or 2 teaspoons (based on preference, it can be quite strong)
+* Passata / thick tomato juice - 1 jar
+* Tabasco sauce (chipotole, smokey) - 1 tsp
+* Cayenne pepper - 1 tsp
+* Chillies (or a scotch bonnet if you prefer) - 1 tsp
 
 ## Notes
 
