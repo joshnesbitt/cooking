@@ -4,14 +4,20 @@
 ## Contents
 
 * [Slow Cooker Pulled Pork](https://github.com/joshnesbitt/recipes/blob/master/recipes/slow-cooker-pulled-pork.md)
+* [Lobster Mac n' Cheese](https://github.com/joshnesbitt/recipes/blob/master/recipes/lobster-mac-n-cheese.md)
 
 
 ## What is this?
 
-This is a collection of recipes I've gathered over the years. At the moment there's only one, so I'm not that good at it. I do however like [cooking a lot](http://instagram.com/joshnesbitt).
+This is a collection of recipes I've gathered over the years. At the moment there's only a few, so I'm not that good at it. I do however like [cooking a lot](http://instagram.com/joshnesbitt).
 
 
 ## Preview
+
+_Lobster mac n' cheese..._
+
+![Lobster mac n' cheese](https://github.com/joshnesbitt/recipes/blob/master/images/lobster-mac-n-cheese-1.jpg)
+![Lobster mac n' cheese](https://github.com/joshnesbitt/recipes/blob/master/images/lobster-mac-n-cheese-2.jpg)
 
 _Chunky avocado and bacon salad with pine nuts..._
 
