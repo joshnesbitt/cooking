@@ -1,9 +1,11 @@
 # Slow Cooker Pulled Pork
 
+
 ## Ingredients
 
 
 ### Meat & Rub
+
 
 * Boned pork shoulder - 1 large cut
 * Brown sugar - 50g
@@ -15,6 +17,7 @@
 
 ### Sauce
 
+
 * Brown sugar - 50g
 * Smoked paprika - 1 or 2 teaspoons (based on preference, it can be quite strong)
 * Passata / thick tomato juice - 1 jar
@@ -24,6 +27,7 @@
 
 
 ## Method
+
 
 * Heat the slow cooker up before hand, it needs to be on a low heat
 * Caramelise the red onions in the olive oil until soft (some browning is good). Once done, lay them at the bottom of the slow cooker as a bottom layer
@@ -40,6 +44,7 @@
 
 
 ## Notes
+
 
 * The measures of the glaze ingredients differs depending on your sensitivity to spice etc, so build it up until you're happy with it, like a good pasta sauce
 * The pork needs to be cooked for _at least_ 16 hours
