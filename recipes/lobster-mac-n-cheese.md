@@ -3,6 +3,8 @@
 
 This recipe is heavily inspired by a recipe from Jamie Oliver's comfort food series. I'd link to it, but it's since been taken down to promote the launch of his [recipe book](http://www.jamieoliver.com/comfortfood).
 
+![Lobster mac n' cheese](https://github.com/joshnesbitt/recipes/blob/master/images/lobster-mac-n-cheese-1.jpg)
+
 
 ## Ingredients
 
