@@ -21,35 +21,35 @@ _Lobster mac n' cheese..._
 
 _Chunky avocado and bacon salad with pine nuts..._
 
-![Chunky avocado and bacon salad with pine nuts](http://photos-a.ak.instagram.com/hphotos-ak-xaf1/10598622_1465201643765256_1998931435_n.jpg)
+![Chunky avocado and bacon salad with pine nuts](https://github.com/joshnesbitt/recipes/blob/master/images/chunky-avocado-and-bacon-salad-with-pine-nuts.jpg)
 
 _Shrimp and chorizo fusilli lunghi col buco with grilled squid..._
 
-![Shrimp and chorizo fusilli lunghi col buco with grilled squid](http://photos-c.ak.instagram.com/hphotos-ak-xaf1/10601869_811069952246466_2064807949_n.jpg)
+![Shrimp and chorizo fusilli lunghi col buco with grilled squid](https://github.com/joshnesbitt/recipes/blob/master/images/shrimp-and-chorizo-fusilli-lunghi-col-buco-with-grilled-squid.jpg)
 
 _BBQ'ed leg of lamb..._
 
-![BBQ'ed leg of lamb](http://photos-b.ak.instagram.com/hphotos-ak-xaf1/10560906_809984495712249_1132484712_n.jpg)
+![BBQ'ed leg of lamb](https://github.com/joshnesbitt/recipes/blob/master/images/bbqed-leg-of-lamb.jpg)
 
 _Sesame and soy pork..._
 
-![Sesame and soy pork](http://photos-e.ak.instagram.com/hphotos-ak-xpf1/10468000_1448880285389092_1369333379_n.jpg)
+![Sesame and soy pork](https://github.com/joshnesbitt/recipes/blob/master/images/sesame-and-soy-pork.jpg)
 
 _"Proper" pork belly..._
 
-!["Proper" pork belly](http://photos-h.ak.instagram.com/hphotos-ak-xfp1/10449003_1434102240204039_2079165677_n.jpg)
+!["Proper" pork belly](https://github.com/joshnesbitt/recipes/blob/master/images/proper-pork-belly.jpg)
 
 _Beef strips with Moroccan cous cous and tzatziki..._
 
-![Beef strips with Moroccan cous cous and tzatziki](http://photos-a.ak.instagram.com/hphotos-ak-xpa1/10432045_1519132194975224_103371450_n.jpg)
+![Beef strips with Moroccan cous cous and tzatziki](https://github.com/joshnesbitt/recipes/blob/master/images/beef-strips-with-moroccan-cous-cous-and-tzatziki.jpg)
 
 _Slow cooked pork belly (before)..._
 
-![Slow cooked pork belly (before)](http://photos-a.ak.instagram.com/hphotos-ak-xfa1/10584800_1510832215796024_22520240_n.jpg)
+![Slow cooked pork belly (before)](https://github.com/joshnesbitt/recipes/blob/master/images/slow-cooked-pork-belly-before.jpg)
 
 _Frank (in a tank)..._
 
-![Frank](http://photos-c.ak.instagram.com/hphotos-ak-xap1/925518_256229967911106_1122021019_n.jpg)
+![Frank](https://github.com/joshnesbitt/recipes/blob/master/images/frank-in-a-tank.jpg)
 
 
 ## License
