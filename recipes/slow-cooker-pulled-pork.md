@@ -1,5 +1,28 @@
 # Slow Cooker Pulled Pork
 
+## Ingredients
+
+
+### Meat & Rub
+
+* Boned pork shoulder - 1 large cut
+* Brown sugar - 50g
+* Salt flakes - 10g
+* Pepper - 10g
+* Olive oil (extra virgin) - Drizzle
+* Red onions - 2 large
+
+
+### Sauce
+
+* Brown sugar - 50g
+* Smoked paprika - 1 or 2 teaspoons (based on preference, it can be quite strong)
+* Passata / thick tomato juice - 1 jar
+* Tabasco sauce (chipotole, smokey) - 1 tsp
+* Cayenne pepper - 1 tsp
+* Chillies (or a scotch bonnet if you prefer) - 1 tsp
+
+
 ## Method
 
 * Heat the slow cooker up before hand, it needs to be on a low heat
@@ -15,25 +38,6 @@
 * Add the sauce back to the tray to rehydrate the pork and give it a juicy consistency
 * Get stuck in
 
-## Ingredients
-
-### Meat & Rub
-
-* Boned pork shoulder - 1 large cut
-* Brown sugar - 50g
-* Salt flakes - 10g
-* Pepper - 10g
-* Olive oil (extra virgin) - Drizzle
-* Red onions - 2 large
-
-### Sauce
-
-* Brown sugar - 50g
-* Smoked paprika - 1 or 2 teaspoons (based on preference, it can be quite strong)
-* Passata / thick tomato juice - 1 jar
-* Tabasco sauce (chipotole, smokey) - 1 tsp
-* Cayenne pepper - 1 tsp
-* Chillies (or a scotch bonnet if you prefer) - 1 tsp
 
 ## Notes
 
