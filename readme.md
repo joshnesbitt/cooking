@@ -3,8 +3,8 @@
 
 ## Contents
 
-* [Slow Cooker Pulled Pork](https://github.com/joshnesbitt/recipes/blob/master/recipes/slow-cooker-pulled-pork.md)
 * [Lobster Mac n' Cheese](https://github.com/joshnesbitt/recipes/blob/master/recipes/lobster-mac-n-cheese.md)
+* [Slow Cooker Pulled Pork](https://github.com/joshnesbitt/recipes/blob/master/recipes/slow-cooker-pulled-pork.md)
 
 
 ## What is this?
@@ -19,6 +19,10 @@ _Lobster mac n' cheese..._
 ![Lobster mac n' cheese](https://github.com/joshnesbitt/recipes/blob/master/images/lobster-mac-n-cheese-1.jpg)
 ![Lobster mac n' cheese](https://github.com/joshnesbitt/recipes/blob/master/images/lobster-mac-n-cheese-2.jpg)
 
+_BBQ'ed leg of lamb..._
+
+![BBQ'ed leg of lamb](https://github.com/joshnesbitt/recipes/blob/master/images/bbqed-leg-of-lamb.jpg)
+
 _Chunky avocado and bacon salad with pine nuts..._
 
 ![Chunky avocado and bacon salad with pine nuts](https://github.com/joshnesbitt/recipes/blob/master/images/chunky-avocado-and-bacon-salad-with-pine-nuts.jpg)
@@ -26,10 +30,6 @@ _Chunky avocado and bacon salad with pine nuts..._
 _Shrimp and chorizo fusilli lunghi col buco with grilled squid..._
 
 ![Shrimp and chorizo fusilli lunghi col buco with grilled squid](https://github.com/joshnesbitt/recipes/blob/master/images/shrimp-and-chorizo-fusilli-lunghi-col-buco-with-grilled-squid.jpg)
-
-_BBQ'ed leg of lamb..._
-
-![BBQ'ed leg of lamb](https://github.com/joshnesbitt/recipes/blob/master/images/bbqed-leg-of-lamb.jpg)
 
 _Sesame and soy pork..._
 
