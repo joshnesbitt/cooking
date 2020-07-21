@@ -1,0 +1,14 @@
+::selection {
+  color: white;
+  background-color: $color-primary;
+}
+
+::-moz-selection {
+  color: white;
+  background-color: $color-primary;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}

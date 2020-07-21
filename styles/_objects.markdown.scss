@@ -1,0 +1,24 @@
+.o-markdown {
+  h1, h2, h3, h4, h5 {
+    margin-bottom: $spacing-unit / 2;
+  }
+
+  img {
+    max-width: 100%;
+    margin-bottom: $spacing-unit / 2;
+  }
+
+  ul, ol {
+    margin: $spacing-unit 0 $spacing-unit $spacing-unit;
+  }
+
+  ul {
+    list-style-type: none;
+
+    & > li::before {
+      content: "–";
+      position: absolute;
+      margin-left: -1.1em;
+    }
+  }
+}

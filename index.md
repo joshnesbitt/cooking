@@ -3,6 +3,6 @@ layout: index.liquid
 title: Index
 ---
 
-## Welcome
+# Cooking Diary
 
 A simple site to publish findings while cooking.

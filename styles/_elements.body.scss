@@ -1,0 +1,12 @@
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.4em;
+  background: #ffffff;
+  color: #394655;
+}
+
+@media (max-width: $responsive-breakpoint) {
+  body {
+    font-size: 1em;
+  }
+}

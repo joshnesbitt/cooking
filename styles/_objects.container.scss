@@ -1,0 +1,9 @@
+.o-container {
+  margin: $spacing-unit $container-width;
+}
+
+@media (max-width: $responsive-breakpoint) {
+  .o-container {
+    margin: $spacing-unit;
+  }
+}

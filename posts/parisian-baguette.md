@@ -3,6 +3,22 @@ date: "2020-07-21"
 title: Test Post for Recipe
 ---
 
-![Baguette 1](/assets/posts/parisian-baguette/1.jpg)
+## Ingredients
 
-Recipe here.
+* One
+* One
+* One
+* One
+* One
+
+## Method
+
+1. One
+1. One
+1. One
+1. One
+1. One
+
+## Inspiration
+
+Initial ideas from [link one](#) with further tips from [link two](#).

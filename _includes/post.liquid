@@ -2,18 +2,18 @@
 <html lang="en">
   <head>
     {% include meta %}
-
-    <meta name="description" content="{{ title }}" />
-
+    <meta name="description" content="Cooking Diary | {{ title }}" />
     <title>{{ title }}</title>
   </head>
   <body>
-    <div class="container post-container">
+    <div class="o-container">
+      <div class="o-markdown">
         <h1>{{ title }}</h1>
-      <div class='content'>{{ content }}</div>
-      <div class="back-link">
-        <a href="/">← Back</a>
+
+        {{ content }}
       </div>
+
+      {% include back %}
     </div>
   </body>
 </html>
