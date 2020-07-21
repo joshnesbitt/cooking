@@ -1,5 +1,5 @@
 ---
-date: "2020-07-21"
+date: 2020-07-21
 title: Parisian Baguette
 images:
   - path: /assets/posts/parisian-baguette/1.jpg
