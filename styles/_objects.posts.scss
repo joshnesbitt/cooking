@@ -2,7 +2,9 @@
   list-style: none;
 }
 
-.o-posts__item {}
+.o-posts__item {
+  margin-bottom: $spacing-unit / 2;
+}
 
 .o-posts__date {
   font-size: 0.6em;
