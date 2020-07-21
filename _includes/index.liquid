@@ -3,11 +3,13 @@
   <head>
     {% include meta %}
     <meta name="description" content="Cooking Diary" />
-    <title>{{ title }}</title>
+    <title>{{ config.title }}</title>
   </head>
   <body>
     <div class="o-container">
       <div class="o-markdown">
+        <h1>{{ title }}</h1>
+
         {{ content }}
       </div>
 
