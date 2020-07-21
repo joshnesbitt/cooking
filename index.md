@@ -1,6 +1,6 @@
 ---
 layout: index.liquid
-title: Cooking Diary
+title: Cooking Notebook
 ---
 
 A simple site to publish findings while cooking.
