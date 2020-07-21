@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include meta %}
+    <meta name="description" content="Cooking Diary | {{ title }}" />
+    <title>{{ title }} · {{ config.title }}</title>
+  </head>
+  <body>
+    <div class="o-container">
+      <div class="o-markdown">
+        <h1>{{ title }}</h1>
+
+        {{ content }}
+      </div>
+
+      {% include back %}
+    </div>
+
+    {% if images %}
+      <div class="o-images">
+        {% for image in images %}
+          <a href="{{ image.path }}">
+            <img style="width: {{ 100 | divided_by: images.length }}%" src="{{ image.path }}" alt="{{ image.alt }}" />
+          </a>
+        {% endfor %}
+      </div>
+
+      <div style="clear: both"></div>
+    {% endif %}
+
+    {% include footer %}
+  </body>
+</html>
