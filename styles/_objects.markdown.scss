@@ -22,7 +22,14 @@
     & > li::before {
       content: "–";
       position: absolute;
-      margin-left: -1.1em;
+      margin-left: -$spacing-unit;
+    }
+  }
+
+  ol {
+    li {
+      margin-bottom: $spacing-unit;
+      margin-left: -$spacing-unit;
     }
   }
 }
