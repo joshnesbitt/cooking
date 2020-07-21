@@ -1,5 +1,4 @@
 .o-markdown {
-
   p {
     margin: 0 0 $spacing-unit 0;
   }
@@ -27,6 +26,10 @@
     li {
       margin-bottom: $spacing-unit;
       margin-left: -$spacing-unit;
+
+      @media (max-width: $responsive-breakpoint) {
+        margin-left: 0;
+      }
     }
   }
 }
