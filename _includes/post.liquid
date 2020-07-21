@@ -15,5 +15,15 @@
 
       {% include back %}
     </div>
+
+    {% if images %}
+      <div class="o-images">
+        {% for image in images %}
+          <a href="{{ image.path }}">
+            <img style="width: {{ 100 | divided_by: images.length }}%" src="{{ image.path }}" alt="{{ image.alt }}" />
+          </a>
+        {% endfor %}
+      </div>
+    {% endif %}
   </body>
 </html>

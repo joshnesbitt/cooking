@@ -1,6 +1,15 @@
 ---
 date: "2020-07-21"
-title: Test Post for Recipe
+title: Parisian Baguette
+images:
+  - path: /assets/posts/parisian-baguette/1.jpg
+    alt: 'Parisian Baguette'
+  - path: /assets/posts/parisian-baguette/2.jpg
+    alt: 'Parisian Baguette'
+  - path: /assets/posts/parisian-baguette/3.jpg
+    alt: 'Parisian Baguette'
+  - path: /assets/posts/parisian-baguette/4.jpg
+    alt: 'Parisian Baguette'
 ---
 
 ## Ingredients
