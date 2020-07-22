@@ -1,5 +1,6 @@
 ---
 date: 2020-07-21
+permalink: /parisian-baguette/index.html
 title: Parisian Baguette
 images:
   - path: /assets/posts/parisian-baguette/1.jpg

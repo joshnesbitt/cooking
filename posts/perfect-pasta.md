@@ -1,5 +1,6 @@
 ---
 date: 2020-07-20
+permalink: /perfect-pasta/index.html
 title: Perfect Pasta
 ---
 
