@@ -1,3 +1,5 @@
 {
-  "title": "Cooking Notebook"
+  "domain": "https://joshnesbitt.cooking",
+  "title": "Cooking Notebook",
+  "description": "A simple site to publish findings while cooking, by Josh Nesbitt."
 }
