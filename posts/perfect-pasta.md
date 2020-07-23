@@ -2,6 +2,7 @@
 date: 2020-07-20
 permalink: /perfect-pasta/index.html
 title: Perfect Pasta
+description: A perfect dough ball of pasta, whether you're rolling it into lasagna sheets or making noodles, it's the best recipe I've found.
 ---
 
 A perfect dough ball of pasta, whether you're rolling it into lasagna sheets or making noodles, it's the best recipe I've found.

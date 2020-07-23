@@ -1,20 +1,28 @@
+{% capture meta_url %}{{ config.domain }}{{ page.url }}{% endcapture %}
+{% capture meta_title %}{% if tags and tags contains 'posts' %}{{ title }} · {{ config.title }}{% else %}{{ config.title }}{% endif %}{% endcapture %}
+{% capture meta_description %}{% if tags and tags contains 'posts' %}{{ description }}{% else %}{{ config.description }}{% endif %}{% endcapture %}
+{% capture meta_image %}{{ config.domain }}{% if images[0] %}{{ images[0].path }}{% else %}/assets/background.jpg{% endif %}{% endcapture %}
+
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
+{% comment %} General {% endcomment %}
+<title>{{ meta_title }}</title>
+<meta name="description" content="{{ meta_description }}" />
+{% comment %} Facebook {% endcomment %}
 <meta property="og:type" content="website" />
-<meta property="og:title" content="{{ config.title }}" />
-<meta property="og:description" content="{{ config.description }}" />
-<meta property="og:url" content="{{ config.domain }}" />
-<meta property="og:image" content="{{ config.domain }}/assets/background.jpg" />
-
+<meta property="og:url" content="{{ meta_url }}" />
+<meta property="og:title" content="{{ meta_title }}" />
+<meta property="og:description" content="{{ meta_description }}" />
+<meta property="og:image" content="{{ meta_image }}" />
+{% comment %} Twitter {% endcomment %}
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="{{ config.title }}" />
-<meta name="twitter:description" content="{{ config.description }}" />
-<meta name="twitter:url" content="{{ config.domain }}" />
 <meta name="twitter:site" content=@joshnesbitt />
 <meta name="twitter:creator" content=@joshnesbitt />
-<meta name="twitter:image" content="{{ config.domain }}/assets/background.jpg" />
+<meta name="twitter:url" content="{{ meta_url }}" />
+<meta name="twitter:title" content="{{ meta_title }}" />
+<meta name="twitter:description" content="{{ meta_description }}" />
+<meta name="twitter:image" content="{{ meta_image }}" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">

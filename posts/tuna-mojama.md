@@ -2,6 +2,7 @@
 date: 2020-05-25
 permalink: /tuna-mojama/index.html
 title: Tuna Mojama
+description: This was my first attempt at Mojama, a sort of tuna ham.
 images:
   - path: /assets/posts/tuna-mojama/1.jpg
     alt: 'Tuna fillet'

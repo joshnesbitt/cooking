@@ -2,6 +2,7 @@
 date: 2020-07-21
 permalink: /parisian-baguette/index.html
 title: Parisian Baguette
+description: A crusty baguette that, due to how it's fermented and prooved, is soft and airy on the inside.
 images:
   - path: /assets/posts/parisian-baguette/1.jpg
     alt: 'Parisian Baguette'
