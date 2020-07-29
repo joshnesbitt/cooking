@@ -2,7 +2,7 @@
 date: 2020-07-29
 permalink: /poolish/index.html
 title: Poolish (pre-ferment)
-description: INTRO
+description: Poolish is the French word for a pre-ferment, or starter.
 images:
   - path: /assets/posts/poolish/1.jpg
     alt: 'Poolish starter mix'
