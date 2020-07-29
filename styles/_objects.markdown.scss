@@ -32,4 +32,20 @@
       }
     }
   }
+
+  table {
+    width: 100%;
+    margin-bottom: $spacing-unit;
+    border-collapse: collapse;
+
+    th, tr, td {
+      border: 1px #ddd solid;
+      padding: $spacing-unit / 2;
+    }
+
+    th {
+      text-align: left;
+      font-weight: bold;
+    }
+  }
 }
