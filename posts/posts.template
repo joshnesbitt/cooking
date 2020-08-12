@@ -1,0 +1,33 @@
+---
+date: 2020-08-12
+permalink: /slug/index.html
+title: Title
+description: Intro
+images:
+  - path: /assets/posts/slug/1.jpg
+    alt: 'Photo 1'
+  - path: /assets/posts/slug/2.jpg
+    alt: 'Photo 2'
+---
+
+INTRO
+
+## Ingredients
+
+* One
+* One
+* One
+
+## Method
+
+1. One
+1. One
+1. One
+
+## Notes
+
+Some notes.
+
+## Inspiration
+
+Links to ideas.
