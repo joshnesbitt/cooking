@@ -1,5 +1,5 @@
 ---
-date: 2020-08-12
+date: 2020-05-15
 permalink: /wild-garlic-butter/index.html
 title: Wild Garlic Butter
 description: A salty garlic butter made from freshly picked wild garlic.
