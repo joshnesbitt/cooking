@@ -5,9 +5,9 @@ title: Herb Oil
 description: A simple way of flavouring oil with herbs.
 images:
   - path: /assets/posts/herb-oil/1.jpg
-    alt: 'Photo 1'
+    alt: 'Herb oil'
   - path: /assets/posts/herb-oil/2.jpg
-    alt: 'Photo 2'
+    alt: 'Herb oil'
 ---
 
 I was originally looking for a way to infuse oil with coriander for a fish tartare recipe when I discovered [this method][1]. Making the oil fresh really does change the flavour dramatically and is a nice way of introducing a herb flavour to a dish.
