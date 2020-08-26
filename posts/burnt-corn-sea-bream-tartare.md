@@ -14,7 +14,7 @@ images:
     alt: Final dish
 ---
 
-I've had fish tartare quite a few times before, but I recently had a variation of this at a restaurant and it got me thinking about burning the corn on a Konro grill to infuse a clean, smoky flavour in it. Along with the homemade coriander oil, this dish packs a lot of flavour in!
+I've had fish tartare quite a few times before, but I recently had a variation on it at a restaurant and it got me thinking about burning the corn on a Konro grill to infuse a clean, smoky flavour in it. Along with the homemade coriander oil, this dish packs a lot of flavour in!
 
 ## Ingredients
 
@@ -27,7 +27,7 @@ I've had fish tartare quite a few times before, but I recently had a variation o
 * 1/4 cucumber
 * 1 corn (on the cob)
 * 1 small bunch coriander
-* 1tsp Maldon sea salt
+* Maldon sea salt
 
 ## Method
 
