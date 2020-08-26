@@ -5,9 +5,9 @@ title: Title
 description: Intro
 images:
   - path: /assets/posts/slug/1.jpg
-    alt: 'Photo 1'
+    alt: Photo 1
   - path: /assets/posts/slug/2.jpg
-    alt: 'Photo 2'
+    alt: Photo 2
 ---
 
 INTRO

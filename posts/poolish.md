@@ -5,11 +5,11 @@ title: Poolish (pre-ferment)
 description: Poolish is the French word for a pre-ferment, or starter.
 images:
   - path: /assets/posts/poolish/1.jpg
-    alt: 'Poolish starter mix'
+    alt: Poolish starter mix
   - path: /assets/posts/poolish/2.jpg
-    alt: 'Poolish starter mix'
+    alt: Poolish starter mix
   - path: /assets/posts/poolish/3.jpg
-    alt: 'Poolish starter mix'
+    alt: Poolish starter mix
 ---
 
 Poolish is the French word for a pre-ferment, or starter. A starter usually contains flour, water and a leavening agent (usually yeast or sourdough culture), and is added to a a dough instead of using yeast directly.

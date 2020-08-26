@@ -5,9 +5,9 @@ title: Wild Garlic Butter
 description: A salty garlic butter made from freshly picked wild garlic.
 images:
   - path: /assets/posts/wild-garlic-butter/1.jpg
-    alt: 'Raw wild garlic'
+    alt: Raw wild garlic
   - path: /assets/posts/wild-garlic-butter/2.jpg
-    alt: 'Wild garlic butter'
+    alt: Wild garlic butter
 ---
 
 When in-season, wild garlic is one of the best readily available ingredients around. I made this butter after [Jack](https://www.instagram.com/jacksails/) gave me some when he went on a picking spree. It's so simple and instantly lifts anything you cook in it.

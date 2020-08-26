@@ -5,13 +5,13 @@ title: Parisian Baguette
 description: A crusty baguette that, due to how it's fermented and prooved, is soft and airy on the inside.
 images:
   - path: /assets/posts/parisian-baguette/1.jpg
-    alt: 'Parisian Baguette'
+    alt: Parisian Baguette
   - path: /assets/posts/parisian-baguette/2.jpg
-    alt: 'Prooving'
+    alt: Prooving
   - path: /assets/posts/parisian-baguette/3.jpg
-    alt: 'Parisian Baguettes'
+    alt: Parisian Baguettes
   - path: /assets/posts/parisian-baguette/4.jpg
-    alt: 'The crumb'
+    alt: The crumb
 ---
 
 A crusty baguette that, due to how it's fermented and prooved, is soft and airy on the inside. It's quite possible to eat the entire thing immediately with [Beurre d'Isigny](https://en.wikipedia.org/wiki/Beurre_d%27Isigny) or as part of a [Jambom Beurre](https://en.wikipedia.org/wiki/Jambon-beurre).
