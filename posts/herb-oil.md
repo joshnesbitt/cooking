@@ -10,7 +10,7 @@ images:
     alt: Herb oil
 ---
 
-I was originally looking for a way to infuse oil with coriander for a [fish tartare](/burnt-corn-sea-bream-tartare) recipe when I discovered [this method][1]. Making the oil fresh really does change the flavour dramatically and is a nice way of introducing a herb flavour to a dish.
+I was originally looking for a way to infuse oil with coriander for the [burnt corn sea bream tartare](/burnt-corn-sea-bream-tartare) recipe when I discovered [this method][1]. Making the oil fresh really does dramatically change the flavour and is a nice way of introducing a herbs to a dish.
 
 ## Ingredients
 
@@ -21,7 +21,7 @@ I was originally looking for a way to infuse oil with coriander for a [fish tart
 ## Method
 
 1. Blanch the bunch of herbs in a salted pan of boiling water for 30 seconds
-1. Plunge the herbs straight from the boiling water into a bath of iced water, and leave to cool completely
+1. Plunge the herbs straight from the boiling water into a bath of iced water and leave to cool completely
 1. Drain any excess water from the herbs with kitchen roll
 1. Add the herbs and half the oil to a food processor and blend until very fine
 1. Add the salt and remaining herbs and blitz to a fine pulp
