@@ -5,12 +5,12 @@ title: Herb Oil
 description: A simple way of flavouring oil with herbs.
 images:
   - path: /assets/posts/herb-oil/1.jpg
-    alt: 'Photo 1'
+    alt: Herb oil
   - path: /assets/posts/herb-oil/2.jpg
-    alt: 'Photo 2'
+    alt: Herb oil
 ---
 
-I was originally looking for a way to infuse oil with coriander for a fish tartare recipe when I discovered [this method][1]. Making the oil fresh really does dramatically change the flavour and is a nice way of introducing a herbs to a dish.
+I was originally looking for a way to infuse oil with coriander for the [burnt corn sea bream tartare](/burnt-corn-sea-bream-tartare) recipe when I discovered [this method][1]. Making the oil fresh really does dramatically change the flavour and is a nice way of introducing a herbs to a dish.
 
 ## Ingredients
 

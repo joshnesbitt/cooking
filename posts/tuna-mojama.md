@@ -5,13 +5,13 @@ title: Tuna Mojama
 description: This was my first attempt at Mojama, a sort of tuna ham.
 images:
   - path: /assets/posts/tuna-mojama/1.jpg
-    alt: 'Tuna fillet'
+    alt: Tuna fillet
   - path: /assets/posts/tuna-mojama/2.jpg
-    alt: 'Tuna covered in dry rub'
+    alt: Tuna covered in dry rub
   - path: /assets/posts/tuna-mojama/3.jpg
-    alt: 'Tuna Mojama'
+    alt: Tuna Mojama
   - path: /assets/posts/tuna-mojama/4.jpg
-    alt: 'Tuna Mojama'
+    alt: Tuna Mojama
 ---
 
 This was [my first attempt](https://www.instagram.com/p/CAqgzBIHQVC/) at Mojama, a sort of tuna ham. There are so many points at which you can change the recipe on this one, from the drying time to the rub, each producing their own nuances in the flavour. It's pretty simple to do, and if you're into cured meats, it's worth a try!
