@@ -1,12 +1,12 @@
 ---
 date: 2020-09-16
-permalink: /lobster-humanely-kill/index.html
-title: Lobster (humanely kill)
+permalink: /lobster-humanely-killing/index.html
+title: Lobster (humanely killing)
 description: Intro
 images:
-  - path: /assets/posts/lobster-humanely-kill/1.jpg
+  - path: /assets/posts/lobster-humanely-killing/1.jpg
     alt: Lobsters
-  - path: /assets/posts/lobster-humanely-kill/2.jpg
+  - path: /assets/posts/lobster-humanely-killing/2.jpg
     alt: Lobsters
 ---
 
