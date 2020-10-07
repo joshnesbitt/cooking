@@ -16,7 +16,7 @@ Boiling a lobster is the simplest way to cook lobster and leaves you with the pu
 
 1. Bring the water to a rolling boil
 1. [Humanely kill your lobster(s)](/lobster-humanely-killing)
-1. Place the lobster in the water an start the timer (roughly 10 minutes for an 800g lobster, see below for cooking guidelines)
+1. Place the lobster in the water and start the timer (roughly 9 minutes for an 800g lobster, see below for a guide)
 1. Once cooked, remove and leave for a few minutes to cool slightly
 1. Crack open the claws, remove the tail meat and enjoy!
 
@@ -24,9 +24,7 @@ Boiling a lobster is the simplest way to cook lobster and leaves you with the pu
 
 Be careful the water doesn't boil over, as it may froth up over time.
 
-If you've overcooked the lobster, the claw meat will stick to the claws when you're trying to get the meat out.
-
-Suggested cooking times:
+If you're cooking more than one, you'll need to play with the times a bit. Suggested cooking times for a single lobster:
 
 |Lobster Size|Boiling Times|
 |------------|-------------|
@@ -39,6 +37,7 @@ Suggested cooking times:
 |1.5kg       |15 minutes   |
 |2kg         |17 minutes   |
 
+If you've overcooked the lobster, the claw meat will stick to the claws when you're trying to get the meat out.
 
 ## Inspiration
 

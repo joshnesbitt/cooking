@@ -14,7 +14,7 @@ Grilling a lobster gives it a different flavour to boiling, and allows you to in
 
 ## Method
 
-1. [Humanely kill your lobster](/lobster-humanely-killing)
+1. [Humanely kill your lobster(s)](/lobster-humanely-killing)
 1. Split the entire lobster into two completely separate halves down the middle of the body and head
 1. Cooking times depend on the size of the lobster, however you want the internal temperature to be 60c for it to be cooked through (around 10 minutes on a medium heat grill for an 800g lobster)
 1. Crack open the claws, remove the tail meat and enjoy!
