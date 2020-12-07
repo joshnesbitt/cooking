@@ -1,24 +1,24 @@
 ---
 date: 2020-12-07
-permalink: /pomme-anna/index.html
-title: Pomme Anna
-description: Ox Club in Leeds makes the best Pomme Anna, hands down. After stealing the recipe from one of the chefs there, I saw Big Has had done a set of stories on how to make potato cakes, which helped get this recipe just right.
+permalink: /pommes-anna/index.html
+title: Pommes Anna
+description: Ox Club in Leeds makes the best Pommes Anna, hands down. After stealing the recipe from one of the chefs there, I saw Big Has had done a set of stories on how to make potato cakes, which helped get this recipe just right.
 images:
-  - path: /assets/posts/pomme-anna/1.jpg
-    alt: Pomme Anna
-  - path: /assets/posts/pomme-anna/2.jpg
-    alt: Pomme Anna
-  - path: /assets/posts/pomme-anna/3.jpg
-    alt: Pomme Anna
-  - path: /assets/posts/pomme-anna/4.jpg
-    alt: Pomme Anna
-  - path: /assets/posts/pomme-anna/5.jpg
-    alt: Pomme Anna
-  - path: /assets/posts/pomme-anna/6.jpg
-    alt: Pomme Anna
+  - path: /assets/posts/pommes-anna/1.jpg
+    alt: Pommes Anna
+  - path: /assets/posts/pommes-anna/2.jpg
+    alt: Pommes Anna
+  - path: /assets/posts/pommes-anna/3.jpg
+    alt: Pommes Anna
+  - path: /assets/posts/pommes-anna/4.jpg
+    alt: Pommes Anna
+  - path: /assets/posts/pommes-anna/5.jpg
+    alt: Pommes Anna
+  - path: /assets/posts/pommes-anna/6.jpg
+    alt: Pommes Anna
 ---
 
-Ox Club in Leeds makes the best Pomme Anna, hands down. After stealing the recipe from one of the chefs there, I saw [Big Has](https://www.instagram.com/bighas___/) had done a [set of stories](https://www.instagram.com/stories/highlights/17885818246801864/) on how to make potato cakes, which helped get this recipe just right. This is all about the preparation, so put some tunes on and get to work.
+Ox Club in Leeds makes the best Pommes Anna, hands down. After stealing the recipe from one of the chefs there, I saw [Big Has](https://www.instagram.com/bighas___/) had done a [set of stories](https://www.instagram.com/stories/highlights/17885818246801864/) on how to make potato cakes, which helped get this recipe just right. This is all about the preparation, so put some tunes on and get to work.
 
 ## Ingredients
 
