@@ -44,7 +44,7 @@ Ox Club in Leeds makes the best Pomme Anna, hands down. After stealing the recip
 1. Leave to cool and chill in the fridge until completely cold (overnight or at least for a few hours)
 1. Remove the cake from the tin and remove the baking paper
 1. Cut into even cubes, trimming the outside edges of the cake off
-1. Fry the cubes each side at a time until golden brown
+1. Fry the cubes each side at a time until golden brown (no oil or butter required as there's plenty in the layers)
 1. Once every cube is fried off you can transfer them to a larger tray to keep at temperature in a 140°C oven (you can also pat them off with kitchen roll if they look a bit greasy)
 1. Season with salt before serving and enjoy as your hours of work disappear in less than a minute
 
