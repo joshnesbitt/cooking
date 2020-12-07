@@ -54,4 +54,4 @@ You will never make enough of these and you will always want more.
 
 ## Inspiration
 
-Cheers to Frankie from Jimmys and [Big Has](https://www.instagram.com/bighas___/).
+Cheers to Ox Club, Frankie from Jimmys and [Big Has](https://www.instagram.com/bighas___/).
