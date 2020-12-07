@@ -15,7 +15,7 @@ This is definitely a recipe for batch preparation so you can knock up a quick lu
 * 2 butternut squash
 * 2 white onions
 * 6 garlic cloves
-* 1tbsp bouillon (or 2 vegetable stock cubes)
+* 1 tbsp bouillon (or 2 vegetable stock cubes)
 * 1 tbsp dried chilli
 * 150ml double cream
 * 1.2l boiling water
