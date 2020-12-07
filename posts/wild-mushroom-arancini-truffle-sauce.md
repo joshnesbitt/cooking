@@ -1,8 +1,8 @@
 ---
-date: 2020-12-07
+date: 2020-12-06
 permalink: /wild-mushroom-arancini-truffle-sauce/index.html
 title: Wild Mushroom Arancini with Truffle Sauce
-description: Intro
+description: Stuzzi makes the best arancini outside of Puglia (although I may be a bit biased as we got married there).
 images:
   - path: /assets/posts/wild-mushroom-arancini-truffle-sauce/1.jpg
     alt: Wild Mushroom Arancini with Truffle Sauce
