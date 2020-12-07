@@ -43,7 +43,7 @@ You'll also want to hold back some flour for dusting.
 1. Roll each portion out into a baguette shape
 1. Once shaped, place on a floured teatowel and roll the sides up to support the baguette when proofing
 1. Cover and proof for another 45 minutes
-1. Preheat the oven on 230°c for at last 45 minutes before cooking. Ideally you want to be cooking on a pizza stone, if you don't have one you can use a tray
+1. Preheat the oven on 230°C for at last 45 minutes before cooking. Ideally you want to be cooking on a pizza stone, if you don't have one you can use a tray
 1. Place the tray or stone towards the top of the oven. At the bottom you'll want to place a cast iron pot. This step is important, you need steam inside the oven to help create the crust
 1. Transfer the proofed baguettes to some floured baking paper, leaving a good distance between them so they don't touch each other. Cut 4 slits down each baguette at an angle
 1. Get a cup of cold water ready before placing the baguettes in the oven

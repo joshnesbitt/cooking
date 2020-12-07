@@ -41,7 +41,7 @@ I've had fish tartare quite a few times before, but I recently had a variation o
 
 ## Notes
 
-If you don't have a Konro grill or BBQ, take the corn off the cob and bake it in a hot (220c) oven until it chars on top.
+If you don't have a Konro grill or BBQ, take the corn off the cob and bake it in a hot (220°C) oven until it chars on top.
 
 ## Inspiration
 
