@@ -22,7 +22,7 @@ Ox Club in Leeds makes the best Pomme Anna, hands down. After stealing the recip
 
 ## Ingredients
 
-* 250g salted butted
+* 250g salted butter
 * 2 sprigs rosemary (or thyme)
 * 6 cloves garlic
 * 6 King Edward potatoes
