@@ -16,7 +16,7 @@
     "@11ty/eleventy": "^0.11.1",
     "concurrently": "^5.1.0",
     "node-sass": "^4.13.1",
-    "prismjs": "^1.22.0",
+    "prismjs": "^1.23.0",
     "socket.io": ">=2.4.0"
   }
 }
