@@ -15,13 +15,12 @@ It took me a few trial and error attempts to get the technique right, but once y
 * 700ml whole milk
 * 4 egg yolks
 * 100g caster sugar
-* 1tbsp cornflour
 * 1 vanilla pod, seeds scraped out
 
 ## Method
 
 1. Add the cream, milk and vanilla pod (without seeds) to a saucepan and bring to just below boiling point
-1. In a bowl, whisk the yolks, sugar, cornflour and vanilla seeds together
+1. In a bowl, whisk the yolks, sugar and vanilla seeds together
 1. Combine the hot mixture with the sugar mixture while whisking steadily
 1. Once combined, add the mixture back to the saucepan and heat gently while stirring constantly
 1. If the end mixture is a little lumpy you can always sieve it after but a good stirring technique should reduce any need for this
