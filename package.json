@@ -17,6 +17,7 @@
     "concurrently": "^5.1.0",
     "node-sass": "^4.13.1",
     "prismjs": "^1.23.0",
-    "socket.io": ">=2.4.0"
+    "socket.io": ">=2.4.0",
+    "xmlhttprequest-ssl": ">=1.6.2"
   }
 }
