@@ -16,7 +16,7 @@
     "@11ty/eleventy": "^0.12.1",
     "concurrently": "^5.1.0",
     "node-sass": "^4.13.1",
-    "prismjs": "^1.23.0",
+    "prismjs": "^1.24.0",
     "socket.io": ">=2.4.0",
     "trim-newlines": ">=3.0.1",
     "ws": ">=7.4.6",
