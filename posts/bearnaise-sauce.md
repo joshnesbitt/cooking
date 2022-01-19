@@ -11,7 +11,7 @@ Alongside peppercorn, this is the best sauce you can have with a steak. Remove t
 
 * 6 large egg yolks
 * 1 block of salted butter
-* 100g fresh tarragon
+* 150g fresh tarragon
 * 2 banana shallots
 * 100ml white wine vinegar
 * 1/2tsp of coarse ground pepper
@@ -20,13 +20,13 @@ Alongside peppercorn, this is the best sauce you can have with a steak. Remove t
 
 1. Finely dice the shallots
 1. Finely chop the tarragon
-1. Add the vinegar, shallots, pepper and tarragon to a pan and simmer
+1. Add the vinegar, shallots, pepper and 100g of the tarragon to a pan and simmer
 1. After 5 minutes, take off the heat and drain the vinegar mixture
 1. Add the butter to a pan and melt completely (don't worry about clarifying it)
 1. In a bowl, whisk the yolks to an emulsion
 1. Add the vinegar mixture to the emulsion and continue to whisk
 1. Slowly and steadily add the tarragon vinegar to the emulsion, continue whisking
-1. Once both mixtures are combined, the sauce should be ready
+1. Once both mixtures are combined, add the remaining 50g of fresh tarragon and the sauce is done
 
 ## Notes
 
