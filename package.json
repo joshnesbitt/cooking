@@ -20,7 +20,7 @@
     "engine.io": ">=6.2.1",
     "json-schema": ">=0.4.0",
     "markdown-it": "^13.0.1",
-    "node-sass": "7.0.1",
+    "node-sass": "^8.0.0",
     "prismjs": "^1.28.0",
     "scss-tokenizer": ">=0.4.3",
     "socket.io": "^4.5.1",
