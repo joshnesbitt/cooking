@@ -13,7 +13,7 @@
   "author": "Josh Nesbitt (josh@stac.works)",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "^1.0.2",
     "axios": "^0.27.2",
     "concurrently": "^5.3.0",
     "ejs": ">=3.1.7",
