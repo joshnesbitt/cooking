@@ -3,6 +3,7 @@ date: 2023-03-13
 permalink: /eastern-standard/index.html
 title: Eastern Standard
 description: A fresh and zingy gin-based cocktail.
+type: drink
 ---
 
 I love boozy cocktails. The Eastern Standard is a nice depature from the pure-alcohol ones I usually tend to order. With the cucumber, mint and lime, it's a fresh cocktail that must be served cold.
