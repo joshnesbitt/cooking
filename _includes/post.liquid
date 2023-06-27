@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    {% include meta %}
+    {% include 'meta' %}
   </head>
   <body>
     <div class="o-container">
@@ -11,7 +11,7 @@
         {{ content }}
       </div>
 
-      {% include back %}
+      {% include 'back' %}
     </div>
 
     {% if images %}
@@ -26,6 +26,6 @@
       <div style="clear: both"></div>
     {% endif %}
 
-    {% include footer %}
+    {% include 'footer' %}
   </body>
 </html>
