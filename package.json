@@ -23,7 +23,7 @@
     "node-sass": "^8.0.0",
     "prismjs": "^1.28.0",
     "scss-tokenizer": ">=0.4.3",
-    "socket.io": "^4.5.1",
+    "socket.io": "^4.7.0",
     "tar": ">=4.4.18",
     "trim-newlines": "^4.0.2",
     "ws": "^8.8.1",
