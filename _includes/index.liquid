@@ -14,7 +14,15 @@
       <ul class="o-posts u-margin-top">
         {% for post in collections.posts reversed %}
           <li class="o-posts__item">
-            <a href="{{ post.url }}">{{ post.data.title }}</a>
+            <a href="{{ post.url }}">
+              {% if post.data.type == 'drink' %}
+              🍸
+              {% else %}
+              🍴
+              {% endif %}
+
+              {{ post.data.title }}
+            </a>
 
             <span class="o-posts__date">
               {{ post.date | date: "%b %Y" }}
