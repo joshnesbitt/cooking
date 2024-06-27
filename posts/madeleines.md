@@ -7,9 +7,9 @@ images:
   - path: /assets/posts/madeleines/1.jpg
     alt: Madeleine batter
   - path: /assets/posts/madeleines/2.jpg
-    alt: Madeleines
+    alt: Madeleines once baked
   - path: /assets/posts/madeleines/3.jpg
-    alt: Madeleines
+    alt: Madeleines once baked
 ---
 
 St John is one of my absolute favourite restaurants. I've been obsessed with Fergus Henderson ever since I saw him cooking with Anthony Bourdain on Mind of a Chef in 2012. These Madeleines are so light and fluffy, usually scoffed at the end of a meal in Smithfield with a digestif. This recipe makes 24 madeleines.
