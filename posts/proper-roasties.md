@@ -2,7 +2,7 @@
 date: 2022-12-21
 permalink: /proper-roasties/index.html
 title: Proper Roasties
-description: 
+description: Ever since we've been involved in the Christmas meal prep/service, I've had this recipe to rely on to ensure our roasties are crispy and delicious.
 images:
   - path: /assets/posts/proper-roasties/1.jpg
     alt: Proper roasties
