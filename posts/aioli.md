@@ -1,5 +1,5 @@
 ---
-date: 2025-07-18
+date: 2025-07-19
 permalink: /aioli/index.html
 title: Aioli
 description: A garlicy punch.
