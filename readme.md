@@ -24,8 +24,3 @@ npm run build
 ```
 
 The static site is output to `dist/`.
-
-
-## Thanks
-
-Thanks to @arpitbatra123 for the [base blog theme](https://github.com/arpitbatra123/eleventy-blog-mnml) that originally inspired this site.
