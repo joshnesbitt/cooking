@@ -2,7 +2,7 @@
 date: 2022-07-20
 permalink: /pork-scratching-butter/index.html
 title: Pork Scratching Butter
-description:
+description: This isn't really a recipe, just a stroke of genius.
 ---
 
 This isn't really a recipe, just a stroke of genius. Ever since our friend made me aware of this, butter will never be the same again. It's butter, with powdered pork scratchings. A nice crunchy spread for fresh bread. Or mixed into steamed greens. Or on absolutely anything else.

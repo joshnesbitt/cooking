@@ -2,7 +2,7 @@
 date: 2020-08-26
 permalink: /burnt-corn-sea-bream-tartare/index.html
 title: Burnt Corn Sea Bream Tartare
-description:
+description: A smoky charred corn and fish tartare recipe that is super fresh.
 images:
   - path: /assets/posts/burnt-corn-sea-bream-tartare/1.jpg
     alt: Sea Bream, filleted
