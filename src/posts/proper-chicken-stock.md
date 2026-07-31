@@ -35,7 +35,3 @@ Stock is the least glamorous thing you can make and probably the most important.
 The golden rule is never let it boil. A rolling boil emulsifies the fat into the stock and makes it cloudy and greasy. You want the occasional lazy bubble breaking the surface, nothing more.
 
 To take it further, boil the finished stock hard and reduce it by three quarters into a glace. It'll set like jelly in the fridge, and a spoonful will transform any pan sauce or the [beef shin ragu](/beef-shin-ragu).
-
-## Inspiration
-
-Every chef who has ever said the difference between home cooking and restaurant cooking is stock. They're not wrong.
