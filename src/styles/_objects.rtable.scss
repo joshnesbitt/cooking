@@ -6,10 +6,17 @@
 .o-rtable {
   width: 100%;
   min-width: 540px;
-  border-collapse: collapse;
+
+  // Separate borders (each cell draws its right/bottom edge, the table its
+  // top/left) so the sticky ingredient column keeps its grid lines on mobile
+  border-collapse: separate;
+  border-spacing: 0;
+  border-top: 1px solid $color-rule-strong;
+  border-left: 1px solid $color-rule-strong;
 
   td {
-    border: 1px solid $color-rule-strong;
+    border-right: 1px solid $color-rule-strong;
+    border-bottom: 1px solid $color-rule-strong;
     padding: 0.55em 0.8em;
     vertical-align: middle;
   }
@@ -17,6 +24,7 @@
   &__ingredient {
     font-size: 0.82em;
     min-width: 11em;
+    background: $color-bg;
   }
 
   &__action {
@@ -29,5 +37,16 @@
     color: $color-ink;
     background: $color-tint;
     min-width: 7em;
+  }
+}
+
+@media (max-width: $responsive-breakpoint) {
+  // Pin the ingredient column while the action columns scroll beneath it
+  .o-rtable__ingredient {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    min-width: 9em;
+    box-shadow: 2px 0 4px rgba(36, 41, 44, 0.06);
   }
 }
