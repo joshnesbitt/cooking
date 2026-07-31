@@ -25,6 +25,19 @@
     vertical-align: baseline;
   }
 
+  tbody tr {
+    position: relative;
+
+    &:hover,
+    &:focus-within {
+      background: $color-tint;
+    }
+
+    &:hover .o-ledger__title a {
+      color: $color-accent;
+    }
+  }
+
   &__no {
     font-family: $font-mono;
     font-size: 0.78em;
@@ -37,10 +50,15 @@
     color: $color-ink;
     font-weight: 500;
 
-    &:hover {
-      color: $color-accent;
-      text-decoration: underline;
-      text-underline-offset: 3px;
+    // Stretch the link over the whole row so anywhere on it is clickable
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+    }
+
+    &:focus-visible {
+      outline: none;
     }
   }
 
