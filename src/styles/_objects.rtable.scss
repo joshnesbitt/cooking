@@ -1,0 +1,32 @@
+.o-rtable-wrap {
+  overflow-x: auto;
+  margin-bottom: $spacing-unit * 2.5;
+}
+
+.o-rtable {
+  width: 100%;
+  min-width: 540px;
+  border-collapse: collapse;
+
+  td {
+    border: 1px solid $color-rule-strong;
+    padding: 0.55em 0.8em;
+    vertical-align: middle;
+  }
+
+  &__ingredient {
+    font-size: 0.82em;
+    white-space: nowrap;
+  }
+
+  &__action {
+    font-family: $font-mono;
+    font-size: 0.64em;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+    color: $color-ink;
+    background: $color-tint;
+  }
+}

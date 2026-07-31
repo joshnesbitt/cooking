@@ -1,0 +1,79 @@
+---
+import type { TableNode } from '../content.config';
+
+interface Props {
+  table: TableNode;
+}
+
+interface Cell {
+  text: string;
+  isAction: boolean;
+  row: number;
+  col: number;
+  rowspan: number;
+  colspan: number;
+}
+
+const { table } = Astro.props;
+
+const leafCount = (node: TableNode): number =>
+  typeof node === 'string' ? 1 : node.from.reduce((sum, child) => sum + leafCount(child), 0);
+
+// Ingredients sit in column 0; an action sits one column right of its deepest child
+const colOf = (node: TableNode): number =>
+  typeof node === 'string' ? 0 : 1 + Math.max(...node.from.map(colOf));
+
+const cells: Cell[] = [];
+
+// Each cell spans right up to its parent's column, keeping the table rectangular
+function walk(node: TableNode, parentCol: number, row: number) {
+  const col = colOf(node);
+
+  cells.push({
+    text: typeof node === 'string' ? node : node.action,
+    isAction: typeof node !== 'string',
+    row,
+    col,
+    rowspan: leafCount(node),
+    colspan: parentCol - col,
+  });
+
+  if (typeof node !== 'string') {
+    let childRow = row;
+
+    for (const child of node.from) {
+      walk(child, col, childRow);
+      childRow += leafCount(child);
+    }
+  }
+}
+
+const totalCols = colOf(table) + 1;
+walk(table, totalCols, 0);
+
+const rows = Array.from({ length: leafCount(table) }, (_, row) =>
+  cells.filter((cell) => cell.row === row).sort((a, b) => a.col - b.col)
+);
+---
+
+<div class="o-rtable-wrap">
+  <table class="o-rtable">
+    <tbody>
+      {
+        rows.map((row) => (
+          <tr>
+            {row.map((cell) => (
+              <td
+                rowspan={cell.rowspan > 1 ? cell.rowspan : undefined}
+                colspan={cell.colspan > 1 ? cell.colspan : undefined}
+                class:list={[cell.isAction ? 'o-rtable__action' : 'o-rtable__ingredient']}
+              >
+                {cell.text}
+              </td>
+            ))}
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</div>

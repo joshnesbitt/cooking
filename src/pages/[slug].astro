@@ -1,6 +1,7 @@
 ---
 import { render } from 'astro:content';
 import Base from '../layouts/Base.astro';
+import RecipeTable from '../components/RecipeTable.astro';
 import { getPostsChronological } from '../lib/posts';
 
 export async function getStaticPaths() {
@@ -39,6 +40,8 @@ const logged = post.data.date.toISOString().slice(0, 10);
         }
       </div>
     </header>
+
+    {post.data.table && <RecipeTable table={post.data.table} />}
 
     <div class="o-markdown">
       <Content />
