@@ -22,7 +22,7 @@ const logged = post.data.date.toISOString().slice(0, 10);
 <Base title={post.data.title} description={post.data.description} images={images} isPost>
   <div class="o-container">
     <header class="o-spec">
-      <p class="o-spec__no">Entry № {String(entryNo).padStart(2, '0')} · {type}</p>
+      <p class="o-spec__no">Entry #{String(entryNo).padStart(2, '0')} · {type}</p>
       <h1 class="o-spec__title">{post.data.title}</h1>
       <div class="o-spec__facts">
         <div class="o-fact">
