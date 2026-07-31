@@ -2,6 +2,8 @@
 @import 'settings.colors';
 @import 'settings.typography';
 
+@import 'tools.labels';
+
 @import 'elements.headings';
 @import 'elements.link';
 @import 'elements.reset';
@@ -14,6 +16,7 @@
 @import 'objects.markdown';
 @import 'objects.masthead';
 @import 'objects.rtable';
+@import 'objects.section-label';
 @import 'objects.log';
 @import 'objects.spec';
 

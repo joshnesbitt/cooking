@@ -49,7 +49,14 @@ const sectionsHtml = splitAt === -1 ? '' : await renderMarkdown(body.slice(split
 
     <div class="o-markdown" set:html={introHtml} />
 
-    {post.data.table && <RecipeTable table={post.data.table} />}
+    {
+      post.data.table && (
+        <>
+          <h2 class="o-section-label">Visual</h2>
+          <RecipeTable table={post.data.table} />
+        </>
+      )
+    }
 
     {sectionsHtml && <div class="o-markdown" set:html={sectionsHtml} />}
 
