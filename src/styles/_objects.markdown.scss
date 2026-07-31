@@ -19,7 +19,7 @@
     font-weight: 600;
     letter-spacing: 0.13em;
     text-transform: uppercase;
-    margin: ($spacing-unit * 2.2) 0 ($spacing-unit * 0.8);
+    margin: ($spacing-unit * 3) 0 ($spacing-unit * 1.2);
     padding-bottom: 0.6em;
     border-bottom: 2px solid $color-ink;
   }
@@ -31,7 +31,7 @@
   }
 
   ul > li {
-    padding: 0.5em 0;
+    padding: 0.7em 0;
     border-bottom: 1px solid $color-rule;
   }
 
@@ -42,8 +42,8 @@
       counter-increment: step;
       display: grid;
       grid-template-columns: 2.4em 1fr;
-      gap: 0.7em;
-      padding: 0.7em 0;
+      gap: 0.8em;
+      padding: 0.95em 0;
       border-bottom: 1px solid $color-rule;
 
       &::before {

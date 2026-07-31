@@ -1,4 +1,4 @@
-.o-ledger {
+.o-log {
   width: 100%;
   border-collapse: collapse;
   font-size: 0.88em;
@@ -14,13 +14,13 @@
     padding: 0 0.5em 0.7em;
     border-bottom: 2px solid $color-ink;
 
-    &.o-ledger__date {
+    &.o-log__date {
       text-align: right;
     }
   }
 
   td {
-    padding: 0.6em 0.5em;
+    padding: 0.9em 0.5em;
     border-bottom: 1px solid $color-rule;
     vertical-align: baseline;
   }
@@ -33,7 +33,7 @@
       background: $color-tint;
     }
 
-    &:hover .o-ledger__title a {
+    &:hover .o-log__title a {
       color: $color-accent;
     }
   }
@@ -47,6 +47,7 @@
   }
 
   &__title a {
+    font-family: $font-sans;
     color: $color-ink;
     font-weight: 500;
 

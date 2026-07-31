@@ -22,29 +22,29 @@ const formatDate = (date: Date) =>
       </p>
     </header>
 
-    <table class="o-ledger">
+    <table class="o-log">
       <thead>
         <tr>
           <th>No.</th>
           <th>Entry</th>
           <th>Type</th>
-          <th class="o-ledger__date">Logged</th>
+          <th class="o-log__date">Logged</th>
         </tr>
       </thead>
       <tbody>
         {
           entries.map(({ post, no }) => (
             <tr>
-              <td class="o-ledger__no">{String(no).padStart(2, '0')}</td>
-              <td class="o-ledger__title">
+              <td class="o-log__no">{String(no).padStart(2, '0')}</td>
+              <td class="o-log__title">
                 <a href={`/${post.id}/`}>{post.data.title}</a>
               </td>
-              <td class="o-ledger__type">
+              <td class="o-log__type">
                 <span class:list={['o-chip', { 'o-chip--food': post.data.type !== 'drink' }]}>
                   {post.data.type === 'drink' ? 'drink' : 'food'}
                 </span>
               </td>
-              <td class="o-ledger__date">{formatDate(post.data.date)}</td>
+              <td class="o-log__date">{formatDate(post.data.date)}</td>
             </tr>
           ))
         }

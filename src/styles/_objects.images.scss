@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 4px;
-  margin: ($spacing-unit * 2) 0 0;
+  margin: ($spacing-unit * 3) 0 0;
 
   a {
     display: block;

@@ -1,7 +1,7 @@
 .o-footer {
   font-family: $font-mono;
   font-size: 0.72em;
-  padding: ($spacing-unit * 2) 0 $spacing-unit;
+  padding: ($spacing-unit * 3) 0 ($spacing-unit * 2);
 
   &, a {
     color: $color-muted;
