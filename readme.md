@@ -5,7 +5,7 @@
 
 ## Overview
 
-A simple site to publish findings while cooking.
+A simple site to publish findings while cooking. Built with [Astro](https://astro.build/) and deployed to Netlify.
 
 
 ## Running
@@ -13,10 +13,19 @@ A simple site to publish findings while cooking.
 ```
 nvm use
 npm install
-npm run serve
+npm run dev
 ```
+
+
+## Building
+
+```
+npm run build
+```
+
+The static site is output to `dist/`.
 
 
 ## Thanks
 
-Thanks to @arpitbatra123 for the [base blog theme](https://github.com/arpitbatra123/eleventy-blog-mnml) using [Eleventy](https://www.11ty.dev/).
+Thanks to @arpitbatra123 for the [base blog theme](https://github.com/arpitbatra123/eleventy-blog-mnml) that originally inspired this site.

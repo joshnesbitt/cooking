@@ -1,0 +1,59 @@
+---
+import config from '../config.json';
+import '../styles/index.scss';
+
+interface Props {
+  title?: string;
+  description?: string;
+  images?: { path: string; alt: string }[];
+  isPost?: boolean;
+}
+
+const { title, description, images, isPost = false } = Astro.props;
+
+const metaUrl = new URL(Astro.url.pathname, config.domain).href;
+const metaTitle = isPost && title ? `${title} · ${config.title}` : config.title;
+const metaDescription = (isPost && description) || config.description;
+const metaImagePath = images?.length ? images[images.length - 1].path : '/assets/background.jpg';
+const metaImage = new URL(metaImagePath, config.domain).href;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>{metaTitle}</title>
+    <meta name="description" content={metaDescription} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={metaUrl} />
+    <meta property="og:title" content={metaTitle} />
+    <meta property="og:description" content={metaDescription} />
+    <meta property="og:image" content={metaImage} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@joshnesbitt" />
+    <meta name="twitter:creator" content="@joshnesbitt" />
+    <meta name="twitter:url" content={metaUrl} />
+    <meta name="twitter:title" content={metaTitle} />
+    <meta name="twitter:description" content={metaDescription} />
+    <meta name="twitter:image" content={metaImage} />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <slot />
+
+    <div class="o-container">
+      <div class="o-footer">
+        <p>
+          <a href="https://joshnesbitt.dev">Josh Nesbitt</a>
+          ·
+          <a href="https://instagram.com/joshnesbitt">Instagram</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

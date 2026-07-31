@@ -1,0 +1,38 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import config from '../config.json';
+
+const posts = (await getCollection('posts')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+const formatDate = (date: Date) =>
+  date.toLocaleDateString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' });
+---
+
+<Base>
+  <div class="o-container">
+    <div class="o-markdown">
+      <h1>{config.title}</h1>
+
+      <p>A simple site to publish findings while cooking.</p>
+    </div>
+
+    <ul class="o-posts u-margin-top">
+      {
+        posts.map((post) => (
+          <li class="o-posts__item">
+            <a href={`/${post.id}/`}>
+              {post.data.type === 'drink' ? '🍸' : '🍴'}
+
+              {post.data.title}
+            </a>
+
+            <span class="o-posts__date">{formatDate(post.data.date)}</span>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</Base>

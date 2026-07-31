@@ -3,19 +3,18 @@
   "version": "1.0.0",
   "description": "A simple site to publish findings while cooking.",
   "scripts": {
-    "build": "eleventy && npm run sass",
-    "dev": "concurrently 'eleventy --serve' 'npm run sass:watch'",
-    "sass": "node-sass --output  _site/styles/ styles/",
-    "sass:watch": "npm run sass && npm run sass -- -w",
-    "clean": "rm -rf _site",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "clean": "rm -rf dist"
   },
   "author": "Josh Nesbitt (josh@stac.works)",
   "license": "MIT",
+  "dependencies": {
+    "astro": "^5.0.0"
+  },
   "devDependencies": {
-    "@11ty/eleventy": "2.0.0",
-    "concurrently": "^5.3.0",
-    "markdown-it": "^13.0.1",
-    "node-sass": "^8.0.0"
+    "remark-breaks": "^4.0.0",
+    "sass": "^1.79.0"
   }
 }
