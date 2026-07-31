@@ -3,32 +3,56 @@
     margin: 0 0 $spacing-unit 0;
   }
 
+  a:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
   img {
     max-width: 100%;
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit * 0.5;
+  }
+
+  h2 {
+    font-family: $font-mono;
+    font-size: 0.74em;
+    font-weight: 600;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    margin: ($spacing-unit * 2.2) 0 ($spacing-unit * 0.8);
+    padding-bottom: 0.6em;
+    border-bottom: 2px solid $color-ink;
   }
 
   ul, ol {
-    margin: $spacing-unit 0 $spacing-unit $spacing-unit;
+    list-style: none;
+    margin: $spacing-unit 0;
+    padding: 0;
   }
 
-  ul {
-    list-style-type: none;
-
-    & > li::before {
-      content: "–";
-      position: absolute;
-      margin-left: -$spacing-unit;
-    }
+  ul > li {
+    padding: 0.5em 0;
+    border-bottom: 1px solid $color-rule;
   }
 
   ol {
-    li {
-      margin-bottom: $spacing-unit;
-      margin-left: -$spacing-unit;
+    counter-reset: step;
 
-      @media (max-width: $responsive-breakpoint) {
-        margin-left: 0;
+    > li {
+      counter-increment: step;
+      display: grid;
+      grid-template-columns: 2.4em 1fr;
+      gap: 0.7em;
+      padding: 0.7em 0;
+      border-bottom: 1px solid $color-rule;
+
+      &::before {
+        content: counter(step, decimal-leading-zero);
+        font-family: $font-mono;
+        font-size: 0.78em;
+        font-variant-numeric: tabular-nums;
+        color: $color-muted;
+        padding-top: 0.25em;
       }
     }
   }
@@ -38,14 +62,20 @@
     margin-bottom: $spacing-unit;
     border-collapse: collapse;
 
-    th, tr, td {
-      border: 1px #ddd solid;
-      padding: $spacing-unit / 2;
+    th, td {
+      border-bottom: 1px solid $color-rule;
+      padding: $spacing-unit * 0.5;
+      text-align: left;
     }
 
     th {
-      text-align: left;
-      font-weight: bold;
+      font-family: $font-mono;
+      font-size: 0.68em;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: $color-muted;
+      border-bottom: 2px solid $color-ink;
     }
   }
 }

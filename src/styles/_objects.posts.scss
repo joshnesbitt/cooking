@@ -1,12 +1,76 @@
-.o-posts {
-  list-style: none;
+.o-ledger {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88em;
+
+  th {
+    font-family: $font-mono;
+    font-size: 0.68em;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $color-muted;
+    text-align: left;
+    padding: 0 0.5em 0.7em;
+    border-bottom: 2px solid $color-ink;
+
+    &.o-ledger__date {
+      text-align: right;
+    }
+  }
+
+  td {
+    padding: 0.6em 0.5em;
+    border-bottom: 1px solid $color-rule;
+    vertical-align: baseline;
+  }
+
+  &__no {
+    font-family: $font-mono;
+    font-size: 0.78em;
+    font-variant-numeric: tabular-nums;
+    color: $color-muted;
+    width: 2.8em;
+  }
+
+  &__title a {
+    color: $color-ink;
+    font-weight: 500;
+
+    &:hover {
+      color: $color-accent;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+  }
+
+  &__type {
+    width: 5.5em;
+  }
+
+  &__date {
+    font-family: $font-mono;
+    font-size: 0.78em;
+    font-variant-numeric: tabular-nums;
+    color: $color-muted;
+    text-align: right;
+    white-space: nowrap;
+    width: 6em;
+  }
 }
 
-.o-posts__item {
-  margin-bottom: $spacing-unit / 2;
-}
+.o-chip {
+  font-family: $font-mono;
+  font-size: 0.62em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $color-accent;
+  background: $color-tint;
+  border-radius: 3px;
+  padding: 0.2em 0.7em;
 
-.o-posts__date {
-  font-size: 0.6em;
-  color: $color-grey;
+  &--food {
+    color: $color-food;
+    background: $color-food-tint;
+  }
 }

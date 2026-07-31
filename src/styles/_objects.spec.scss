@@ -1,0 +1,40 @@
+.o-spec {
+  border-bottom: 2px solid $color-ink;
+  padding-bottom: $spacing-unit;
+  margin-bottom: $spacing-unit * 1.5;
+
+  &__no {
+    font-family: $font-mono;
+    font-size: 0.68em;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $color-accent;
+    margin-bottom: 0.9em;
+  }
+
+  &__title {
+    margin-bottom: 0.5em;
+  }
+
+  &__facts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em 2em;
+  }
+}
+
+.o-fact {
+  font-family: $font-mono;
+  font-size: 0.72em;
+  font-variant-numeric: tabular-nums;
+
+  span {
+    display: block;
+    font-size: 0.82em;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $color-muted;
+    margin-bottom: 0.2em;
+  }
+}

@@ -1,38 +1,54 @@
 ---
-import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
-import config from '../config.json';
+import { getPostsChronological } from '../lib/posts';
 
-const posts = (await getCollection('posts')).sort(
-  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
-);
+const chronological = await getPostsChronological();
+const entries = chronological
+  .map((post, index) => ({ post, no: index + 1 }))
+  .reverse();
+
+const firstYear = chronological[0].data.date.getUTCFullYear();
 
 const formatDate = (date: Date) =>
-  date.toLocaleDateString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' });
+  `${date.getUTCFullYear()}-${String(date.getUTCMonth() + 1).padStart(2, '0')}`;
 ---
 
 <Base>
   <div class="o-container">
-    <div class="o-markdown">
-      <h1>{config.title}</h1>
+    <header class="o-masthead">
+      <h1 class="o-masthead__title">cooking—notebook</h1>
+      <p class="o-masthead__sub">
+        Findings from the kitchen, {firstYear} → present. {chronological.length} entries.
+      </p>
+    </header>
 
-      <p>A simple site to publish findings while cooking.</p>
-    </div>
-
-    <ul class="o-posts u-margin-top">
-      {
-        posts.map((post) => (
-          <li class="o-posts__item">
-            <a href={`/${post.id}/`}>
-              {post.data.type === 'drink' ? '🍸' : '🍴'}
-
-              {post.data.title}
-            </a>
-
-            <span class="o-posts__date">{formatDate(post.data.date)}</span>
-          </li>
-        ))
-      }
-    </ul>
+    <table class="o-ledger">
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>Entry</th>
+          <th>Type</th>
+          <th class="o-ledger__date">Logged</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          entries.map(({ post, no }) => (
+            <tr>
+              <td class="o-ledger__no">{String(no).padStart(2, '0')}</td>
+              <td class="o-ledger__title">
+                <a href={`/${post.id}/`}>{post.data.title}</a>
+              </td>
+              <td class="o-ledger__type">
+                <span class:list={['o-chip', { 'o-chip--food': post.data.type !== 'drink' }]}>
+                  {post.data.type === 'drink' ? 'drink' : 'food'}
+                </span>
+              </td>
+              <td class="o-ledger__date">{formatDate(post.data.date)}</td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
   </div>
 </Base>

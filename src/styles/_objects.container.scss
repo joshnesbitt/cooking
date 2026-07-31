@@ -1,5 +1,5 @@
 .o-container {
-  margin: $spacing-unit auto;
+  margin: ($spacing-unit * 2) auto $spacing-unit;
   padding: 0 $spacing-unit;
   max-width: $container-width;
 }

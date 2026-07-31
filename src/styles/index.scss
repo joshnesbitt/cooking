@@ -1,5 +1,6 @@
 @import 'settings.sizing';
 @import 'settings.colors';
+@import 'settings.typography';
 
 @import 'elements.headings';
 @import 'elements.link';
@@ -10,6 +11,8 @@
 @import 'objects.footer';
 @import 'objects.images';
 @import 'objects.markdown';
+@import 'objects.masthead';
 @import 'objects.posts';
+@import 'objects.spec';
 
 @import 'utilities.margins';
