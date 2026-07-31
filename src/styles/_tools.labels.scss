@@ -1,0 +1,9 @@
+@mixin section-label {
+  font-family: $font-mono;
+  font-size: 0.74em;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  padding-bottom: 0.6em;
+  border-bottom: 1px solid $color-rule-strong;
+}
