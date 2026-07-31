@@ -1,0 +1,95 @@
+.o-log {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88em;
+
+  th {
+    font-family: $font-mono;
+    font-size: 0.68em;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $color-muted;
+    text-align: left;
+    padding: 0 0.5em 0.7em;
+    border-bottom: 1px solid $color-rule-strong;
+
+    &.o-log__date {
+      text-align: right;
+    }
+  }
+
+  td {
+    padding: 0.9em 0.5em;
+    border-bottom: 1px solid $color-rule;
+    vertical-align: baseline;
+  }
+
+  tbody tr {
+    position: relative;
+
+    &:hover,
+    &:focus-within {
+      background: $color-tint;
+    }
+
+    &:hover .o-log__title a {
+      color: $color-accent;
+    }
+  }
+
+  &__no {
+    font-family: $font-mono;
+    font-size: 0.78em;
+    font-variant-numeric: tabular-nums;
+    color: $color-muted;
+    width: 2.8em;
+  }
+
+  &__title a {
+    font-family: $font-sans;
+    color: $color-ink;
+    font-weight: 500;
+
+    // Stretch the link over the whole row so anywhere on it is clickable
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+    }
+
+    &:focus-visible {
+      outline: none;
+    }
+  }
+
+  &__type {
+    width: 5.5em;
+  }
+
+  &__date {
+    font-family: $font-mono;
+    font-size: 0.78em;
+    font-variant-numeric: tabular-nums;
+    color: $color-muted;
+    text-align: right;
+    white-space: nowrap;
+    width: 6em;
+  }
+}
+
+.o-chip {
+  font-family: $font-mono;
+  font-size: 0.62em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $color-accent;
+  background: $color-tint;
+  border-radius: 3px;
+  padding: 0.2em 0.7em;
+
+  &--food {
+    color: $color-food;
+    background: $color-food-tint;
+  }
+}

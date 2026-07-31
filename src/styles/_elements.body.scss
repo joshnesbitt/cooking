@@ -1,12 +1,13 @@
 body {
-  font-family: "IBM Plex Sans", sans-serif;
-  font-size: 1.4em;
-  background: #ffffff;
-  color: $color-text;
+  font-family: $font-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  background: $color-bg;
+  color: $color-ink;
 }
 
 @media (max-width: $responsive-breakpoint) {
   body {
-    font-size: 1em;
+    font-size: 16.5px;
   }
 }

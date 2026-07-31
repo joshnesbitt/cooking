@@ -1,0 +1,16 @@
+.o-masthead {
+  margin-bottom: $spacing-unit * 3.5;
+
+  &__title {
+    font-family: $font-mono;
+    font-size: 1.35em;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin-bottom: 0.2em;
+  }
+
+  &__sub {
+    font-size: 0.82em;
+    color: $color-muted;
+  }
+}

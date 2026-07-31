@@ -1,49 +1,63 @@
 ---
-import { getCollection, render } from 'astro:content';
+import { render } from 'astro:content';
 import Base from '../layouts/Base.astro';
+import { getPostsChronological } from '../lib/posts';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('posts');
+  const posts = await getPostsChronological();
 
-  return posts.map((post) => ({
+  return posts.map((post, index) => ({
     params: { slug: post.id },
-    props: { post },
+    props: { post, entryNo: index + 1 },
   }));
 }
 
-const { post } = Astro.props;
+const { post, entryNo } = Astro.props;
 const { Content } = await render(post);
 const images = post.data.images;
+const type = post.data.type === 'drink' ? 'Drink' : 'Food';
+const logged = post.data.date.toISOString().slice(0, 10);
 ---
 
 <Base title={post.data.title} description={post.data.description} images={images} isPost>
   <div class="o-container">
-    <div class="o-markdown">
-      <h1>{post.data.title}</h1>
+    <header class="o-spec">
+      <p class="o-spec__no">Entry #{String(entryNo).padStart(2, '0')} · {type}</p>
+      <h1 class="o-spec__title">{post.data.title}</h1>
+      <div class="o-spec__facts">
+        <div class="o-fact">
+          <span>Logged</span>
+          {logged}
+        </div>
+        {
+          images && (
+            <div class="o-fact">
+              <span>Photos</span>
+              {images.length}
+            </div>
+          )
+        }
+      </div>
+    </header>
 
+    <div class="o-markdown">
       <Content />
     </div>
 
-    <div class="u-margin-top">
-      <p>
-        <a href="/">← Back</a>
-      </p>
+    <div class="o-back">
+      <a href="/">← Back to the log</a>
     </div>
-  </div>
 
-  {
-    images && (
-      <>
+    {
+      images && (
         <div class="o-images">
           {images.map((image) => (
             <a href={image.path}>
-              <img style={`width: ${100 / images.length}%`} src={image.path} alt={image.alt} />
+              <img src={image.path} alt={image.alt} />
             </a>
           ))}
         </div>
-
-        <div style="clear: both" />
-      </>
-    )
-  }
+      )
+    }
+  </div>
 </Base>

@@ -6,7 +6,7 @@ description: The classic bitter aperitivo, equal parts and impossible to get wro
 type: drink
 ---
 
-The Negroni is the boozy cocktail I keep coming back to. Three ingredients, equal parts, no shaking, no fuss. It's bitter, it's strong, and it's the perfect thing to drink while you're cooking dinner. The [Eastern Standard](/eastern-standard) is for the summer afternoons, this is for everything else.
+Three ingredients, equal parts, no shaking, no fuss. It's bitter, it's strong, and it's the perfect thing to drink while you're cooking dinner. The [Eastern Standard](/eastern-standard) is for the summer afternoons, this is for later on.
 
 ## Ingredients
 
@@ -26,7 +26,3 @@ The Negroni is the boozy cocktail I keep coming back to. Three ingredients, equa
 The vermouth is where the quality shows, so don't cheap out on it, and keep the bottle in the fridge once opened.
 
 If you're having people over, batch it. Multiply everything by the number of drinks, stir it together in a bottle with 20% of the total volume in water (to replace the dilution you'd get from stirring over ice), and keep it in the freezer. Pour straight into glasses over ice and you've got instant Negronis all evening.
-
-## Inspiration
-
-Invented in Florence over a century ago when Count Camillo Negroni asked for his Americano stiffened up with gin. The equal-parts spec has never needed improving.
