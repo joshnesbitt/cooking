@@ -1,0 +1,16 @@
+.o-back {
+  margin-top: $spacing-unit * 2.5;
+
+  a {
+    font-family: $font-mono;
+    font-size: 0.72em;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: $color-muted;
+
+    &:hover {
+      color: $color-accent;
+      text-decoration: none;
+    }
+  }
+}
