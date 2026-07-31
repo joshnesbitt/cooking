@@ -21,7 +21,7 @@
     text-transform: uppercase;
     margin: ($spacing-unit * 3) 0 ($spacing-unit * 1.2);
     padding-bottom: 0.6em;
-    border-bottom: 2px solid $color-ink;
+    border-bottom: 1px solid $color-rule-strong;
   }
 
   ul, ol {
@@ -75,7 +75,7 @@
       letter-spacing: 0.12em;
       text-transform: uppercase;
       color: $color-muted;
-      border-bottom: 2px solid $color-ink;
+      border-bottom: 1px solid $color-rule-strong;
     }
   }
 }

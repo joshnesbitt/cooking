@@ -1,5 +1,11 @@
 .o-container {
-  margin: ($spacing-unit * 3.5) auto $spacing-unit;
+  margin: ($spacing-unit * 2.5) auto $spacing-unit;
   padding: 0 ($spacing-unit * 1.25);
   max-width: $container-width;
+}
+
+@media (max-width: $responsive-breakpoint) {
+  .o-container {
+    margin-top: $spacing-unit * 1.25;
+  }
 }
