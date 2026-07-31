@@ -4,6 +4,17 @@ permalink: /negroni/index.html
 title: Negroni
 description: The classic bitter aperitivo, equal parts and impossible to get wrong. Almost.
 type: drink
+table:
+  action: express the orange peel over the top and drop it in
+  from:
+    - action: stir for 20 to 30 seconds until well chilled
+      from:
+        - action: add to a rocks glass with plenty of ice
+          from:
+            - 25ml dry gin
+            - 25ml Campari
+            - 25ml sweet vermouth
+    - Strip of orange peel
 ---
 
 Three ingredients, equal parts, no shaking, no fuss. It's bitter, it's strong, and it's the perfect thing to drink while you're cooking dinner. The [Eastern Standard](/eastern-standard) is for the summer afternoons, this is for later on.

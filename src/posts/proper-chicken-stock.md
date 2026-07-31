@@ -3,6 +3,25 @@ date: 2025-01-26
 permalink: /proper-chicken-stock/index.html
 title: Proper Chicken Stock
 description: Roasted bones, a long gentle simmer, and the foundation of almost everything else worth cooking.
+table:
+  action: chill overnight, lift off the fat and portion for the freezer
+  from:
+    - action: strain through a fine sieve
+      from:
+        - action: cover with cold water, skim and simmer gently for 4 to 6 hours
+          from:
+            - action: roast at 200°C for 45 minutes and deglaze the tray
+              from:
+                - 2kg chicken bones, wings and carcasses
+            - action: roughly chop
+              from:
+                - 2 white onions
+                - 2 carrots
+                - 4 sticks of celery
+            - 1 bulb of garlic (halved)
+            - 2 bay leaves
+            - A few sprigs of thyme
+            - 1 tsp black peppercorns
 ---
 
 Stock is the least glamorous thing you can make and probably the most important. Shop-bought stock is fine, but a proper homemade chicken stock is on another level, and it's mostly passive time. Roasting the bones first gives you a deeper, golden stock, and once you have it you can reduce it down into something approaching a restaurant sauce base.

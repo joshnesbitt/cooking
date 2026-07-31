@@ -3,6 +3,20 @@ date: 2025-09-07
 permalink: /focaccia/index.html
 title: Focaccia
 description: A high-hydration overnight focaccia with rosemary and flaky salt.
+table:
+  action: bake at 220°C for 25-30 min, then cool on a wire rack
+  from:
+    - action: dimple firmly, drizzle with oil, scatter rosemary and Maldon
+      from:
+        - action: mix, fold every 30 min for 2h, cold prove overnight, then prove in an oiled tray 2-3h until doubled
+          from:
+            - 500g strong white bread flour
+            - 400ml lukewarm water (80% hydration)
+            - 10g fine salt
+            - 4g instant dried yeast
+        - Olive oil
+        - 2 sprigs rosemary
+        - Maldon sea salt
 ---
 
 After getting comfortable with the [poolish](/poolish) and the [Parisian baguette](/parisian-baguette), focaccia is the bread I make most often. It's a wet, lazy dough that does almost all of the work itself overnight in the fridge, and the reward is a golden, dimpled slab with a crisp base and an open crumb.

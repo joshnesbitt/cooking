@@ -3,6 +3,20 @@ date: 2021-04-21
 permalink: /vanilla-custard/index.html
 title: Vanilla Custard
 description: We're reasonably obsessed with apple crumble in our house, and the perfect accompaniment to that is a homemade custard.
+table:
+  action: return to the saucepan and heat gently, stirring constantly
+  from:
+    - action: whisk the hot mixture into the yolk mixture steadily
+      from:
+        - action: bring to just below boiling point
+          from:
+            - 200ml double/thick cream
+            - 700ml whole milk
+            - 1 vanilla pod, seeds scraped out
+        - action: whisk together with the vanilla seeds
+          from:
+            - 4 egg yolks
+            - 100g caster sugar
 ---
 
 We're reasonably obsessed with [apple crumble](https://www.youtube.com/watch?v=cSriH6duR6M) in our house, and the perfect accompaniment to that is a homemade custard.

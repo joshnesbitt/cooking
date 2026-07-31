@@ -12,6 +12,24 @@ images:
     alt: Tuna Mojama
   - path: /assets/posts/tuna-mojama/4.jpg
     alt: Tuna Mojama
+table:
+  action: age on a drying rack in the fridge for at least 30 days
+  from:
+    - action: vacuum pack with the rub and refrigerate for 4 days
+      from:
+        - action: rub all over with the dry mix
+          from:
+            - action: trim excess fat and pat dry
+              from:
+                - 500g tuna fillet
+            - action: mix the dry ingredients together
+              from:
+                - 8.5g kosher salt
+                - 1.25g sodium nitrite (or pink salt)
+                - 2tsp fennel seeds
+                - 1tsp cayenne pepper
+                - 1tsp smoked paprika
+                - 1tsp garlic powder
 ---
 
 This was [my first attempt](https://www.instagram.com/p/CAqgzBIHQVC/) at Mojama, a sort of tuna ham. There are so many points at which you can change the recipe on this one, from the drying time to the rub, each producing their own nuances in the flavour. It's pretty simple to do, and if you're into cured meats, it's worth a try!

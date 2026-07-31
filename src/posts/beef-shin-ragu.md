@@ -3,6 +3,28 @@ date: 2024-11-09
 permalink: /beef-shin-ragu/index.html
 title: Beef Shin Ragu
 description: A slow-braised beef shin ragu for pappardelle, the beefy sibling of the reverse-engineered pork version.
+table:
+  action: 140°C for 3h with the lid on, 1h uncovered, then shred
+  from:
+    - action: dice & fry in the butter (mirepoix)
+      from:
+        - 1 white onion
+        - 2 carrots
+        - 4 sticks of celery
+        - 4 garlic cloves
+        - 75g butter
+    - action: brown generously
+      from:
+        - 1kg beef shin
+        - Olive oil
+    - action: cook out, bubble off the alcohol
+      from:
+        - 2 tbsp tomato paste
+        - 300ml red wine
+    - 400g tin of plum tomatoes
+    - 300ml beef stock
+    - 2 bay leaves & 1 tbsp thyme
+    - Salt and pepper
 ---
 
 The [reverse-engineered ragu](/reverse-engineered-ragu) is built on pork shoulder, but beef shin makes a ragu with a completely different character. Shin is full of connective tissue that slowly melts into the sauce, giving it a silky, sticky body that clings to wide ribbons of pasta. This one wants pappardelle and a pile of parmesan.

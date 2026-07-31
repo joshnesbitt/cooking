@@ -3,6 +3,17 @@ date: 2020-12-05
 permalink: /truffle-white-sauce/index.html
 title: Truffle White Sauce
 description: This sauce is nothing more than a traditional roux with truffle salsa in it, but it's a superb addition to any pasta or fried dish (like arancini).
+table:
+  action: stir in the truffle salsa to taste, adding salt if needed
+  from:
+    - action: whisk in the milk bit by bit until thickened
+      from:
+        - action: melt the butter and cook the flour to a smooth paste
+          from:
+            - 100g salted butter
+            - 50g plain flour
+        - 1 pint whole milk
+    - 2 tsp truffle salsa
 ---
 
 This sauce is nothing more than a [traditional roux](https://www.bbcgoodfood.com/howto/guide/how-make-roux) with truffle salsa in it, but it's a superb addition to any pasta or fried dish (like [arancini](/wild-mushroom-arancini-truffle-sauce)).

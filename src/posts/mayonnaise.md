@@ -3,6 +3,18 @@ date: 2025-07-18
 permalink: /mayonnaise/index.html
 title: Mayonnaise
 description: A classic mayonnaise recipe.
+table:
+  action: add the vinegar and season to taste
+  from:
+    - action: blitz to an emulsion
+      from:
+        - 2 large egg yolks
+        - 2 tbsp Dijon mustard
+    - action: stream in slowly
+      from:
+        - 250ml sunflower oil
+    - 2 tbsp white wine vinegar
+    - Salt and pepper to taste
 ---
 
 A good mayonnaise should be creamy, salty and with a hint of mustard. Perfect for crispy fries and as a base for other sauces (like [aioli](/aioli)).

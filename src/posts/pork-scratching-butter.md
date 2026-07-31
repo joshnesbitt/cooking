@@ -3,6 +3,15 @@ date: 2022-07-20
 permalink: /pork-scratching-butter/index.html
 title: Pork Scratching Butter
 description: This isn't really a recipe, just a stroke of genius.
+table:
+  action: mix together and season with a little more salt (or MSG)
+  from:
+    - action: soften to room temperature
+      from:
+        - 1 block of salted butter
+    - action: bash with a rolling pin into powder and chunks
+      from:
+        - 2 packs of pork scratchings
 ---
 
 This isn't really a recipe, just a stroke of genius. Ever since our friend made me aware of this, butter will never be the same again. It's butter, with powdered pork scratchings. A nice crunchy spread for fresh bread. Or mixed into steamed greens. Or on absolutely anything else.

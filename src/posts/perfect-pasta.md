@@ -3,6 +3,16 @@ date: 2020-07-20
 permalink: /perfect-pasta/index.html
 title: Perfect Pasta
 description: A perfect dough ball of pasta, whether you're rolling it into lasagna sheets or making noodles, it's the best recipe I've found.
+table:
+  action: roll into sheets or cut into noodles
+  from:
+    - action: refrigerate and rest for at least an hour
+      from:
+        - action: mix until soft and consistent in texture
+          from:
+            - 300g "00" flour
+            - 2 eggs
+            - 4 egg yolks
 ---
 
 A perfect dough ball of pasta, whether you're rolling it into lasagna sheets or making noodles, it's the best recipe I've found.

@@ -8,6 +8,16 @@ images:
     alt: Lobsters
   - path: /assets/posts/lobster-humanely-killing/2.jpg
     alt: Lobsters
+table:
+  action: cook immediately, boiling or grilling
+  from:
+    - action: spike from the back of the legs down to between the eyes
+      from:
+        - action: flip onto its back and grip firmly
+          from:
+            - action: chill in the freezer for 30 minutes
+              from:
+                - A live lobster
 ---
 
 Lobster and chips is probably one of the best dishes ever made. Ever since I first tried lobster I wanted to feel comfortable cooking it. It was important to me that I faced the reality of the process. It's not for everyone, and I'm not one to push the "if you eat it you should kill it" mantra, but I wanted to do it for my own progression, as someone who likes food.

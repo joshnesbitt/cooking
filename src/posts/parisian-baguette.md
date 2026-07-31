@@ -12,6 +12,25 @@ images:
     alt: Parisian Baguettes
   - path: /assets/posts/parisian-baguette/4.jpg
     alt: The crumb
+table:
+  action: bake at 230°C for 30-45 minutes until hollow-sounding
+  from:
+    - action: shape into baguettes, proof 45 minutes and slash
+      from:
+        - action: mix to a loose dough, fold and proof for 2 hours
+          from:
+            - action: froth together
+              from:
+                - 52ml warm water
+                - 7g active dry yeast
+            - action: combine dry
+              from:
+                - 454g bread flour
+                - 2tsp kosher salt
+            - 300ml tepid water
+    - action: pour into a hot cast iron pot to create steam
+      from:
+        - A cup of cold water
 ---
 
 A crusty baguette that, due to how it's fermented and prooved, is soft and airy on the inside. It's quite possible to eat the entire thing immediately with [Beurre d'Isigny](https://en.wikipedia.org/wiki/Beurre_d%27Isigny) or as part of a [Jambom Beurre](https://en.wikipedia.org/wiki/Jambon-beurre).

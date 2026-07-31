@@ -3,6 +3,27 @@ date: 2024-06-02
 permalink: /crispy-chilli-oil/index.html
 title: Crispy Chilli Oil
 description: The make-once, put-on-everything condiment. Crunchy, savoury and not just about the heat.
+table:
+  action: stir in soy sauce, cool, then crumble the crispy bits back in and jar
+  from:
+    - action: pour the hot oil over the chilli mixture
+      from:
+        - action: infuse with star anise and cinnamon to 180°C, then remove them
+          from:
+            - action: fry thinly sliced shallots, then garlic, until golden and scoop out
+              from:
+                - 400ml groundnut oil
+                - 6 banana shallots
+                - 8 garlic cloves
+            - 1 star anise
+            - 1 cinnamon stick
+        - action: combine in a heatproof bowl
+          from:
+            - 50g dried chilli flakes (gochugaru or Sichuan)
+            - 2 tbsp sesame seeds
+            - 1 tsp caster sugar
+            - 1 tsp fine salt
+    - 1 tbsp soy sauce
 ---
 
 Everyone has a jar of crispy chilli oil in the fridge these days, but the homemade version is a different animal. You control the heat, the crunch and the balance, and the smell of hot oil hitting the aromatics is worth the effort alone. This is more about the crispy bits than outright fire. It goes on eggs, noodles, dumplings, rice, pizza and, in moments of weakness, straight off the spoon.

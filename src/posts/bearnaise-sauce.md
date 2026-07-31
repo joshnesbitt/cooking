@@ -3,6 +3,26 @@ date: 2022-01-19
 permalink: /bearnaise-sauce/index.html
 title: Béarnaise Sauce
 description: A simple way of flavouring oil with herbs.
+table:
+  action: fold in 50g fresh tarragon to finish
+  from:
+    - action: slowly whisk in the melted butter
+      from:
+        - action: whisk the strained reduction into the yolk emulsion
+          from:
+            - action: whisk to an emulsion
+              from:
+                - 6 large egg yolks
+            - action: dice, chop, then simmer 5 minutes and strain
+              from:
+                - 100ml white wine vinegar
+                - 2 banana shallots
+                - 1/2tsp of coarse ground pepper
+                - 100g fresh tarragon
+        - action: melt completely
+          from:
+            - 1 block of salted butter
+    - 50g fresh tarragon
 ---
 
 Alongside peppercorn, this is the best sauce you can have with a steak. Remove the tarragon, and you've got [one of the five French mother sauces](https://en.wikipedia.org/wiki/French_mother_sauces).

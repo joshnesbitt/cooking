@@ -3,6 +3,33 @@ date: 2024-01-09
 permalink: /reverse-engineered-ragu/index.html
 title: Reverse-engineered Ragu
 description: A trial and error approach to finding the perfect pasta sauce.
+table:
+  action: rest, then shred the pork through the sauce with a fork
+  from:
+    - action: cook covered at 120°C for 3h, then uncovered at 180°C for 1h to thicken
+      from:
+        - action: combine in the dutch oven and mix well
+          from:
+            - action: dice small and fry in the butter to a mirepoix
+              from:
+                - 1 white onion
+                - 2 carrots
+                - 4 sticks of celery
+                - 4 garlic cloves
+                - 75g butter
+            - action: cut into large chunks and brown generously in olive oil
+              from:
+                - 1kg boneless pork shoulder (excess fat trimmed off)
+                - Olive oil
+            - 1 tbsp thyme
+            - 1 tbsp sage
+            - 1 tbsp rosemary
+            - 4 tbsp tomato paste
+            - 8 fresh tomatoes
+            - 300ml red wine
+            - 200ml veal stock
+            - 100ml water
+            - Salt and pepper to taste
 ---
 
 I think one of my favourite plates of pasta is the Radiatori ragu dish from [Stuzzi](https://stuzzi.co.uk/leeds/). It's got everything you want from a dish of pasta. Chunky pasta, a rich sauce and shredded meat with some chunkier bits in it for some texture. This recipe was reverse engineered from the dishes I've had at Stuzzi but also some other sauces I've eaten in Puglia.

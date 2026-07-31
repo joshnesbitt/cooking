@@ -6,6 +6,22 @@ description: Ever since we've been involved in the Christmas meal prep/service, 
 images:
   - path: /assets/posts/proper-roasties/1.jpg
     alt: Proper roasties
+table:
+  action: roast at 220°C until golden-brown, turning every 10 minutes, finish with Maldon salt
+  from:
+    - action: toss the cooled potatoes until fully coated
+      from:
+        - action: peel, quarter, par-boil and air dry
+          from:
+            - 1kg potatoes
+        - action: mix the seasoning through
+          from:
+            - 150g semolina
+            - 2tsp kosher salt
+            - 1tsp fine pepper
+    - action: heat in the oven until up to temperature
+      from:
+        - 1 jar goose fat (or beef dripping)
 ---
 
 Ever since we've been involved in the Christmas meal prep/service, I've had this recipe to rely on to ensure our roasties are crispy and delicious. This is one of those where the extra effort goes a long way, to create fluffy but crispy potatoes.

@@ -3,6 +3,19 @@ date: 2020-09-18
 permalink: /lobster-grilling/index.html
 title: Lobster (grilling)
 description: Grilling a lobster gives it a different flavour to boiling, and allows you to introduce other flavours during the cooking process.
+table:
+  action: crack the claws and remove the tail meat
+  from:
+    - action: grill to 60°C internal, around 10 minutes for 800g
+      from:
+        - action: split lengthways into two separate halves
+          from:
+            - action: humanely kill
+              from:
+                - A live lobster
+        - action: baste while cooking
+          from:
+            - Salted butter for basting
 ---
 
 Grilling a lobster gives it a different flavour to boiling, and allows you to introduce other flavours during the cooking process (over say, [boiling](/lobster-boiling)). You can use any sort of grill for this. If you don't have a grill, you can bake it instead.

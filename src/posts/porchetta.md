@@ -14,6 +14,23 @@ images:
     alt: Pork belly rolled
   - path: /assets/posts/porchetta/6.jpg
     alt: Porchetta
+table:
+  action: roast at max heat for 30-45 minutes then 160°C for 4 hours, rest 15 minutes
+  from:
+    - action: rub in the mix, roll and tie with butchers twine
+      from:
+        - action: score and scald the skin, then butterfly the loin
+          from:
+            - 3kg pork belly with the loin
+        - action: grind together in a pestle and mortar
+          from:
+            - 5 sprigs fresh thyme
+            - 5 sprigs fresh rosemary
+            - 1 bulb garlic
+            - 2 tbsp dried fennel seeds
+            - 2 tbsp chilli flakes
+            - 4 tbsp olive oil
+            - Maldon salt and coarse pepper to taste
 ---
 
 I had given this recipe a go a few times until me and [Tom](https://twitter.com/TomFaller) got it spot on last November for bonfire night. The crispy skin along with the juicy, salty meat makes it a great dish on its own or as part of a killer sandwich.

@@ -8,6 +8,18 @@ images:
     alt: Herb oil
   - path: /assets/posts/herb-oil/2.jpg
     alt: Herb oil
+table:
+  action: strain through muslin overnight, then bottle and use within 2 weeks
+  from:
+    - action: add the salt and blitz to a fine pulp
+      from:
+        - action: blend with the oil until very fine
+          from:
+            - action: blanch 30 seconds, plunge into iced water, then drain
+              from:
+                - 200g fresh herbs (I used coriander)
+            - 400ml groundnut oil
+        - 1tsp Maldon sea salt
 ---
 
 I was originally looking for a way to infuse oil with coriander for the [burnt corn sea bream tartare](/burnt-corn-sea-bream-tartare) recipe when I discovered [this method][1]. Making the oil fresh really does dramatically change the flavour and is a nice way of introducing a herbs to a dish.

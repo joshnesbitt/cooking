@@ -3,6 +3,26 @@ date: 2025-07-19
 permalink: /aioli/index.html
 title: Aioli
 description: A garlicy punch.
+table:
+  action: blend until smooth
+  from:
+    - action: make the mayonnaise
+      from:
+        - action: blitz to an emulsion
+          from:
+            - 2 large egg yolks
+            - 2 tbsp Dijon mustard
+        - action: stream in slowly
+          from:
+            - 250ml sunflower oil
+        - 2 tbsp white wine vinegar
+        - Salt and pepper
+    - action: finely mince
+      from:
+        - 2 garlic cloves
+    - action: lightly chop
+      from:
+        - 1 bunch flat leafed parsley
 ---
 
 A good aioli relies on a good [mayonnaise](/mayonnaise) base, combined with a big punch of garlic.
