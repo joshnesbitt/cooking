@@ -3,6 +3,24 @@ date: 2022-02-16
 permalink: /overnight-oats/index.html
 title: Overnight Oats
 description: A simple, nutritional breakfast.
+table:
+  action: serve the next morning with additional honey
+  from:
+    - action: leave in the fridge overnight
+      from:
+        - action: mix together
+          from:
+            - action: core and grate
+              from:
+                - 2 apples
+            - 100g pomegranate seeds
+            - Pinch of salt
+            - 150g oats
+        - action: combine the wet ingredients
+          from:
+            - 150ml whole milk
+            - 100ml yogurt
+            - 30g honey
 ---
 
 A tasty morning snack/breakfast that's simple to prepare. It's good to have some in the fridge if you're in a rush during the week.

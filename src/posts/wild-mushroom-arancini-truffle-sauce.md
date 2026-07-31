@@ -10,6 +10,31 @@ images:
     alt: Wild Mushroom Arancini with Truffle Sauce
   - path: /assets/posts/wild-mushroom-arancini-truffle-sauce/3.jpg
     alt: Wild Mushroom Arancini with Truffle Sauce cut open
+table:
+  action: deep fry at 180°C for around 10 minutes until golden, serve with the sauce
+  from:
+    - action: form balls stuffed with mozzarella, then roll in flour, whisked egg and panko
+      from:
+        - action: make the risotto, then chill for an hour to firm up
+          from:
+            - action: finely dice and caramelise in the butter on a low heat
+              from:
+                - 200g butter
+                - 250g wild mushrooms
+                - 3 banana shallots
+                - 4 cloves garlic
+            - action: fry, then add stock a ladle at a time until al dente
+              from:
+                - 250g Arborio rice
+                - 1l chicken stock
+            - 1 handful flat leafed parsley
+            - Salt and pepper to taste
+        - 1 ball of mozzarella di bufala campana
+        - 100g plain flour
+        - 2 eggs
+        - 200g panko breadcrumbs
+    - Vegetable oil for frying
+    - 1 batch truffle white sauce
 ---
 
 [Stuzzi](https://stuzzi.co.uk/leeds/) makes the best arancini outside of Puglia (although I may be a bit biased as we got married there). There's something awesome about being served a deep fried ball of risotto the size of your fist, not to mention they stuff it with cheese or butter to make cutting it open make your mouth instantly water.

@@ -3,6 +3,25 @@ date: 2025-04-12
 permalink: /brown-butter-miso-cabbage/index.html
 title: Brown Butter Miso Cabbage
 description: Charred hispi cabbage glazed with a nutty miso brown butter.
+table:
+  action: serve with remaining butter spooned over and sesame seeds
+  from:
+    - action: roast at 180°C for 15-20 min, basting halfway
+      from:
+        - action: brush the charred faces generously with the miso brown butter
+          from:
+            - action: halve lengthways, oil and salt the cut faces, then char cut side down 4-5 min
+              from:
+                - 2 hispi (sweetheart) cabbages
+                - Olive oil
+                - Salt
+            - action: brown the butter, then whisk in until smooth
+              from:
+                - 100g salted butter
+                - 2 tbsp white miso paste
+                - 1 tbsp rice wine vinegar
+                - 1 tsp honey
+    - 1 tbsp toasted sesame seeds (optional)
 ---
 
 Charred cabbage has been on every restaurant menu for years now, and for good reason. Done properly, the humble cabbage becomes something you'd happily order as a main. The trick is a hard char on the cut face for bitterness and smoke, then a glaze of brown butter and miso to bring the richness and umami.

@@ -4,6 +4,16 @@ permalink: /eastern-standard/index.html
 title: Eastern Standard
 description: A fresh and zingy gin-based cocktail.
 type: drink
+table:
+  action: shake with ice and strain into a coupe glass
+  from:
+    - action: muddle
+      from:
+        - 3 thick slices of cucumber
+        - 3 mint leaves
+    - 50ml dry gin
+    - 12.5ml lime juice
+    - 10ml sugar syrup
 ---
 
 I love boozy cocktails. The Eastern Standard is a nice depature from the pure-alcohol ones I usually tend to order. With the cucumber, mint and lime, it's a fresh cocktail that must be served cold.

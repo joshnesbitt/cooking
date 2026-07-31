@@ -16,6 +16,21 @@ images:
     alt: Pommes Anna
   - path: /assets/posts/pommes-anna/6.jpg
     alt: Pommes Anna
+table:
+  action: fry the cubes until golden brown and season with salt
+  from:
+    - action: bake pressed at 160°C for 1 hour, chill overnight and cut into cubes
+      from:
+        - action: dip each slice in the butter and layer in a lined tin
+          from:
+            - action: melt on a low heat, mash and sieve
+              from:
+                - 250g salted butter
+                - 2 sprigs rosemary (or thyme)
+                - 6 cloves garlic
+            - action: peel, slice thinly and dry
+              from:
+                - 6 King Edward potatoes
 ---
 
 Ox Club in Leeds makes the best Pommes Anna, hands down. After stealing the recipe from one of the chefs there, I saw [Big Has](https://www.instagram.com/bighas___/) had done a [set of stories](https://www.instagram.com/stories/highlights/17885818246801864/) on how to make potato cakes, which helped get this recipe just right. This is all about the preparation, so put some tunes on and get to work.

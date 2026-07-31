@@ -12,6 +12,29 @@ images:
     alt: Tartare preparation
   - path: /assets/posts/burnt-corn-sea-bream-tartare/4.jpg
     alt: Final dish
+table:
+  action: garnish with coriander oil and serve
+  from:
+    - action: mix together and season to cut the bitterness of the lime
+      from:
+        - action: fillet, skin, debone and dice into small chunks
+          from:
+            - 1 whole sea bream (gutted and scaled)
+        - action: char, cool, then cut the kernels off the cob
+          from:
+            - 1 corn (on the cob)
+        - action: finely chop
+          from:
+            - 1 fresh chilli
+            - 1 banana shallot
+            - 1 small bunch coriander
+        - action: dice
+          from:
+            - 1/4 cucumber
+        - 1/2tsp cider vinegar
+        - 2tbsp lime juice
+        - 2tbsp coriander oil
+        - Maldon sea salt
 ---
 
 I've had fish tartare quite a few times before, but I recently had a variation on it at a restaurant and it got me thinking about burning the corn on a Konro grill to infuse a clean, smoky flavour in it. Along with the homemade coriander oil, this dish packs a lot of flavour in!

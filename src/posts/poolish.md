@@ -10,6 +10,14 @@ images:
     alt: Poolish starter mix
   - path: /assets/posts/poolish/3.jpg
     alt: Poolish starter mix
+table:
+  action: ferment in a sealed container for the designated rest period
+  from:
+    - action: mix together
+      from:
+        - 200g bread flour
+        - 200g warm (but not hot) water
+        - 0.2g dry active yeast
 ---
 
 Poolish is the French word for a pre-ferment, or starter. A starter usually contains flour, water and a leavening agent (usually yeast or sourdough culture), and is added to a a dough instead of using yeast directly.

@@ -3,6 +3,28 @@ date: 2026-02-15
 permalink: /xo-ish-sauce/index.html
 title: XO-ish Sauce
 description: A homemade take on the Hong Kong umami condiment, using dried shrimp and cured ham.
+table:
+  action: cool, then jar with the solids covered by the oil
+  from:
+    - action: stir in and cook for a final 5 minutes
+      from:
+        - action: cook low for 30 to 40 minutes until deep golden brown
+          from:
+            - action: finely chop and fry in the oil until softened
+              from:
+                - 2 banana shallots
+                - 8 garlic cloves
+                - 4 red chillies (deseeded for less heat)
+                - 300ml groundnut oil
+            - action: soak in warm water for 30 minutes, drain and pulse until shredded
+              from:
+                - 100g dried shrimp
+            - action: pulse to a similar texture
+              from:
+                - 100g cured ham (ends and offcuts are perfect)
+        - 1 tbsp dried chilli flakes
+        - 2 tbsp soy sauce
+        - 1 tbsp caster sugar
 ---
 
 Proper XO sauce is a Hong Kong invention built on dried scallops, dried shrimp and cured ham, all fried down in oil with plenty of chilli and garlic. Dried scallops are expensive and hard to find, so this is my "XO-ish" version, leaning on dried shrimp and whatever cured ham offcuts I have around. Spoon it over rice, eggs, greens, noodles or fish, basically anything that needs a hit of umami.

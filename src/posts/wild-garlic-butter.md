@@ -8,6 +8,18 @@ images:
     alt: Raw wild garlic
   - path: /assets/posts/wild-garlic-butter/2.jpg
     alt: Wild garlic butter
+table:
+  action: roll into a log in baking parchment and refrigerate
+  from:
+    - action: blend together in a mixer
+      from:
+        - action: soften to room temperature
+          from:
+            - 250g block unsalted butter
+        - action: wash in cold water and chop finely
+          from:
+            - A couple of bunches of wild garlic
+        - 2 tbsp Maldon sea salt
 ---
 
 When in-season, wild garlic is one of the best readily available ingredients around. I made this butter after [Jack](https://www.instagram.com/jacksails/) gave me some when he went on a picking spree. It's so simple and instantly lifts anything you cook in it.

@@ -16,17 +16,18 @@
 
   &__ingredient {
     font-size: 0.82em;
-    white-space: nowrap;
+    min-width: 11em;
   }
 
   &__action {
     font-family: $font-mono;
     font-size: 0.64em;
     font-weight: 600;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align: center;
     color: $color-ink;
     background: $color-tint;
+    min-width: 7em;
   }
 }

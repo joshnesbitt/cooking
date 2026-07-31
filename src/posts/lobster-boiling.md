@@ -3,6 +3,19 @@ date: 2020-09-17
 permalink: /lobster-boiling/index.html
 title: Lobster (boiling)
 description: Boiling a lobster is the simplest way to cook lobster and leaves you with the purest taste of the lobster meat.
+table:
+  action: crack the claws and remove the tail meat
+  from:
+    - action: rest for a few minutes to cool slightly
+      from:
+        - action: boil, roughly 9 minutes for 800g
+          from:
+            - action: humanely kill
+              from:
+                - A live lobster
+            - action: bring to a rolling boil
+              from:
+                - A large pan of salted water
 ---
 
 Boiling a lobster is the simplest way to cook lobster and leaves you with the purest taste of the lobster meat. This is how I first started cooking lobster, and I'd say it's the quickest way to cook a lot of them if you're cooking a few at a time.

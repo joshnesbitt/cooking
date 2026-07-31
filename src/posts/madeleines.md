@@ -10,6 +10,27 @@ images:
     alt: Madeleines once baked
   - path: /assets/posts/madeleines/3.jpg
     alt: Madeleines once baked
+table:
+  action: bake at 180°C for 12-14 minutes until golden brown
+  from:
+    - action: chill in a piping bag for 3 hours, then pipe into the moulds
+      from:
+        - action: fold together
+          from:
+            - action: whisk for 10 minutes until tripled in size
+              from:
+                - 3 large eggs
+                - 110g caster sugar
+                - 15g soft light brown sugar
+            - action: melt and leave to cool
+              from:
+                - 135g salted butter
+                - 30ml honey
+            - 135g self-raising flour
+    - action: grease and dust the madeleine tin
+      from:
+        - 10g butter for greasing
+        - 10g flour for dusting
 ---
 
 St John is one of my absolute favourite restaurants. I've been obsessed with Fergus Henderson ever since I saw him cooking with Anthony Bourdain on Mind of a Chef in 2012. These Madeleines are so light and fluffy, usually scoffed at the end of a meal in Smithfield with a digestif. This recipe makes 24 madeleines.
