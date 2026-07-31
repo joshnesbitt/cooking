@@ -22,33 +22,31 @@ const formatDate = (date: Date) =>
       </p>
     </header>
 
-    <table class="o-log">
-      <thead>
-        <tr>
-          <th>No.</th>
-          <th>Entry</th>
-          <th>Type</th>
-          <th class="o-log__date">Logged</th>
-        </tr>
-      </thead>
-      <tbody>
+    <div class="o-log">
+      <div class="o-log__head" aria-hidden="true">
+        <span>No.</span>
+        <span>Entry</span>
+        <span>Type</span>
+        <span class="o-log__date">Logged</span>
+      </div>
+      <ul class="o-log__rows">
         {
           entries.map(({ post, no }) => (
-            <tr>
-              <td class="o-log__no">{String(no).padStart(2, '0')}</td>
-              <td class="o-log__title">
-                <a href={`/${post.id}/`}>{post.data.title}</a>
-              </td>
-              <td class="o-log__type">
-                <span class:list={['o-chip', { 'o-chip--food': post.data.type !== 'drink' }]}>
-                  {post.data.type === 'drink' ? 'drink' : 'food'}
+            <li>
+              <a class="o-log__row" href={`/${post.id}/`}>
+                <span class="o-log__no">{String(no).padStart(2, '0')}</span>
+                <span class="o-log__title">{post.data.title}</span>
+                <span>
+                  <span class:list={['o-chip', { 'o-chip--food': post.data.type !== 'drink' }]}>
+                    {post.data.type === 'drink' ? 'drink' : 'food'}
+                  </span>
                 </span>
-              </td>
-              <td class="o-log__date">{formatDate(post.data.date)}</td>
-            </tr>
+                <span class="o-log__date">{formatDate(post.data.date)}</span>
+              </a>
+            </li>
           ))
         }
-      </tbody>
-    </table>
+      </ul>
+    </div>
   </div>
 </Base>

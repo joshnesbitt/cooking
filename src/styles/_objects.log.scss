@@ -1,39 +1,56 @@
+// A list of links laid out as aligned columns. Deliberately not a <table>:
+// whole-row links need a stretched hit area, and WebKit does not honour
+// position: relative on table rows, which broke row taps on iOS.
+$log-columns: 2.8em minmax(0, 1fr) 5.5em 6em;
+
 .o-log {
-  width: 100%;
-  border-collapse: collapse;
   font-size: 0.88em;
 
-  th {
-    font-family: $font-mono;
-    font-size: 0.68em;
-    font-weight: 600;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: $color-muted;
-    text-align: left;
-    padding: 0 0.5em 0.7em;
+  &__head,
+  &__row {
+    display: grid;
+    grid-template-columns: $log-columns;
+    column-gap: 1em;
+    align-items: baseline;
+    padding: 0 0.5em;
+  }
+
+  &__head {
+    padding-bottom: 0.7em;
     border-bottom: 1px solid $color-rule-strong;
 
-    &.o-log__date {
-      text-align: right;
+    span {
+      font-family: $font-mono;
+      font-size: 0.68em;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: $color-muted;
     }
   }
 
-  td {
-    padding: 0.9em 0.5em;
-    border-bottom: 1px solid $color-rule;
-    vertical-align: baseline;
+  &__rows {
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
-  tbody tr {
-    position: relative;
+  &__row {
+    padding-top: 0.9em;
+    padding-bottom: 0.9em;
+    border-bottom: 1px solid $color-rule;
+    color: $color-ink;
+    text-decoration: none;
 
     &:hover,
-    &:focus-within {
+    &:focus-visible {
       background: $color-tint;
+      text-decoration: none;
+      outline: none;
     }
 
-    &:hover .o-log__title a {
+    &:hover .o-log__title,
+    &:focus-visible .o-log__title {
       color: $color-accent;
     }
   }
@@ -43,28 +60,11 @@
     font-size: 0.78em;
     font-variant-numeric: tabular-nums;
     color: $color-muted;
-    width: 2.8em;
   }
 
-  &__title a {
+  &__title {
     font-family: $font-sans;
-    color: $color-ink;
     font-weight: 500;
-
-    // Stretch the link over the whole row so anywhere on it is clickable
-    &::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-    }
-
-    &:focus-visible {
-      outline: none;
-    }
-  }
-
-  &__type {
-    width: 5.5em;
   }
 
   &__date {
@@ -74,8 +74,8 @@
     color: $color-muted;
     text-align: right;
     white-space: nowrap;
-    width: 6em;
   }
+
 }
 
 .o-chip {
