@@ -1,8 +1,8 @@
 ---
-date: 2026-08-01
+date: 2024-08-06
 permalink: /martini/index.html
 title: Martini
-description: A dry gin martini with a twist, and the case for keeping a batch in the freezer.
+description: A freezer dry gin martini with a twist.
 type: drink
 table:
   action: express the twist over the top and drop it in
@@ -16,7 +16,7 @@ table:
         - 1 lemon
 ---
 
-The finest of all cocktails. Strong, cold and refreshing. Two ingredients and a piece of lemon peel, so the quality of the ingredients matter — the gin has to be good, the vermouth fresh, and everything has to be properly, punishingly cold. This is a dry one with a twist.
+The finest of all cocktails. Strong, cold and refreshing. Two ingredients and a piece of lemon peel, so the quality of the ingredients are important — the gin has to be good, the vermouth fresh, and everything has to be properly cold. This is a dry one with a twist.
 
 ## Ingredients
 
@@ -35,9 +35,9 @@ The finest of all cocktails. Strong, cold and refreshing. Two ingredients and a 
 
 ## Notes
 
-Cold is the whole recipe. If anything is lukewarm — the gin, the glass, your patience — the drink falls apart.
+If anything is lukewarm — the gin, the glass, your patience — the drink falls apart.
 
-Which is why the freezer batch is the real move here, even more than with the [Negroni](/negroni). Multiply the gin and vermouth by the number of drinks, add 10% of the total volume in water (a martini takes on a little less dilution than a stirred-over-ice Negroni because it's served straight up), bottle it, and keep it in the freezer. It won't freeze — the drink pours at around -18°C, thick and glassy, colder than you could ever get it by stirring. Cut the twists fresh, though; the peel doesn't batch.
+Batching it in the freezer ensures consistency and scale, even more than with the [Negroni](/negroni). Multiply the gin and vermouth by the number of drinks, add 10% of the total volume in water (a martini takes on a little less dilution than a stirred-over-ice Negroni because it's served straight up), bottle it, and keep it in the freezer. It won't freeze — the drink pours at around -18°C, thick and viscous, colder than you could ever get it by stirring. Cut the twists fresh, though; the peel doesn't batch.
 
 ## Inspiration
 
