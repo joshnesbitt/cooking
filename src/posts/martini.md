@@ -9,27 +9,27 @@ table:
   from:
     - action: stir over ice for 30 seconds, strain into a chilled coupe
       from:
-        - 60ml dry gin
+        - 60ml freezer-cold dry gin
         - 10ml dry vermouth
     - action: cut a strip of peel, trim the pith
       from:
         - 1 lemon
 ---
 
-The martini is the boozy cocktail with nowhere to hide. Two ingredients and a piece of lemon peel, so the details do all of the work — the gin has to be good, the vermouth fresh, and everything has to be properly, punishingly cold. This is a dry one with a twist, which is where I think a [Negroni](/negroni) drinker ends up eventually.
+The finest of all cocktails. Strong, cold and refreshing. Two ingredients and a piece of lemon peel, so the details do all of the work — the gin has to be good, the vermouth fresh, and everything has to be properly, punishingly cold. This is a dry one with a twist.
 
 ## Ingredients
 
-* 60ml dry gin
-* 10ml dry vermouth (I like Noilly Prat, kept in the fridge)
+* 60ml dry gin, kept in the freezer (Boatyard, No.3 or Roku are the ones)
+* 10ml dry vermouth (I like Cocchi Extra Dry, kept in the fridge)
 * Strip of lemon peel
 
 ## Method
 
-1. Chill your glass in the freezer (do this well ahead, a warm glass kills a martini faster than anything)
+1. Keep your gin in the freezer and chill your coupe in there too (do this well ahead, a warm glass kills a martini faster than anything)
 1. Add the gin and vermouth to a mixing glass with plenty of ice
 1. Stir for 30 seconds until ice cold
-1. Strain into the chilled coupe or martini glass
+1. Strain into the chilled coupe
 1. Cut a strip of lemon peel, trimming away any pith
 1. Express the peel over the top (skin side down, give it a squeeze so the oils spray over the surface), wipe it around the rim and drop it in
 
@@ -41,4 +41,4 @@ Which is why the freezer batch is the real move here, even more than with the [N
 
 ## Inspiration
 
-Every freezer-door martini poured at a good bar, and the realisation that the best version of this drink is the one that requires no effort at the moment you want it.
+[Dukes](https://www.dukeshotel.com/dukes-bar/) in London, where the gin comes off the trolley freezer-cold and the martinis have a house limit for good reason. Closer to home, [Empire Café](https://www.instagram.com/empirecafeleeds/) and [Below Stairs](https://www.belowstairs.co.uk/) in Leeds both pour a proper one.
