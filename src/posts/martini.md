@@ -16,7 +16,7 @@ table:
         - 1 lemon
 ---
 
-The finest of all cocktails. Strong, cold and refreshing. Two ingredients and a piece of lemon peel, so the details do all of the work — the gin has to be good, the vermouth fresh, and everything has to be properly, punishingly cold. This is a dry one with a twist.
+The finest of all cocktails. Strong, cold and refreshing. Two ingredients and a piece of lemon peel, so the quality of the ingredients matter — the gin has to be good, the vermouth fresh, and everything has to be properly, punishingly cold. This is a dry one with a twist.
 
 ## Ingredients
 
