@@ -37,7 +37,7 @@ The finest of all cocktails. Strong, cold and refreshing. Two ingredients and a 
 
 Cold is the whole recipe. If anything is lukewarm — the gin, the glass, your patience — the drink falls apart.
 
-Which is why the freezer batch is the real move here, even more than with the [Negroni](/negroni). Multiply the gin and vermouth by the number of drinks, add 15% of the total volume in water (a martini takes on a little less dilution than a stirred-over-ice Negroni because it's served straight up), bottle it, and keep it in the freezer. It won't freeze — the drink pours at around -18°C, thick and glassy, colder than you could ever get it by stirring. Cut the twists fresh, though; the peel doesn't batch.
+Which is why the freezer batch is the real move here, even more than with the [Negroni](/negroni). Multiply the gin and vermouth by the number of drinks, add 10% of the total volume in water (a martini takes on a little less dilution than a stirred-over-ice Negroni because it's served straight up), bottle it, and keep it in the freezer. It won't freeze — the drink pours at around -18°C, thick and glassy, colder than you could ever get it by stirring. Cut the twists fresh, though; the peel doesn't batch.
 
 ## Inspiration
 
