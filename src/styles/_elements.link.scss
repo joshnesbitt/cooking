@@ -1,11 +1,11 @@
 a {
   color: $color-accent;
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 
   &:hover {
     cursor: pointer;
-    text-decoration: underline;
-    text-underline-offset: 3px;
+    color: $color-accent-dark;
   }
 
   &:focus-visible {

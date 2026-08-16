@@ -3,11 +3,6 @@
     margin: 0 0 $spacing-unit 0;
   }
 
-  a:hover {
-    text-decoration: underline;
-    text-underline-offset: 3px;
-  }
-
   h2 {
     @include section-label;
     margin: ($spacing-unit * 3) 0 ($spacing-unit * 1.2);
