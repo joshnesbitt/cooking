@@ -2,7 +2,7 @@
 date: 2026-08-25
 permalink: /house-dressing/index.html
 title: House Dressing
-description: Good oil, sharp acid, Maldon and pepper. The only dressing you need.
+description: Good oil, sharp acid, Maldon and pepper. The only dressing you need for most salads.
 table:
   action: whisk or shake to a loose emulsion, then taste on a leaf and adjust
   from:
@@ -11,17 +11,17 @@ table:
         - action: crush between your fingers
           from:
             - 1 large pinch Maldon sea salt
-        - 2 tbsp red wine vinegar (or lemon juice)
+        - 2 tbsp sherry vinegar
     - A generous grind of black pepper
     - 6 tbsp extra virgin olive oil
 ---
 
-Every restaurant has a house dressing and yours should be no different. This is nothing more than fat and acid in a 3 to 1 ratio, seasoned properly, but with good ingredients it transforms a bowl of leaves into something people ask about. There are only four things in it, so each one has to earn its place. Use the best extra virgin olive oil you can justify.
+Every restaurant has a house dressing and your home should be no different. This is nothing more than fat and acid in a 3 to 1 ratio, seasoned properly, but with good ingredients it transforms a bowl of leaves into something great. There are only four things in it, so each one has to be of good quality. Use the best extra virgin olive oil you can buy.
 
 ## Ingredients
 
 * 6 tbsp extra virgin olive oil (the good stuff)
-* 2 tbsp red wine vinegar, or the juice of half a lemon
+* 2 tbsp sherry vinegar
 * 1 large pinch of Maldon sea salt
 * A generous grind of black pepper
 
@@ -35,8 +35,8 @@ Every restaurant has a house dressing and yours should be no different. This is 
 
 ## Notes
 
-Dissolve the salt in the vinegar before the oil goes anywhere near it. Salt won't dissolve in fat, and gritty dressing is a rookie error.
+Dissolve the salt in the vinegar before the oil goes anywhere near it. Salt won't dissolve in fat, and gritty dressing is unpleasant.
 
-The 3 to 1 ratio is a starting point, not a law. Sharper leaves can take more acid, delicate ones want more oil. This is why you taste on a leaf: a dressing that tastes balanced on a spoon will taste flat on lettuce.
+The 3 to 1 ratio is a starting point. Sharper leaves can take more acid, delicate ones want more oil. This is why you taste on a leaf: a dressing that tastes balanced on a spoon may taste different on lettuce.
 
 It will split as it sits. That's fine, it isn't a mayonnaise. Give it another shake just before it goes on.
