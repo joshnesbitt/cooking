@@ -16,7 +16,7 @@ table:
     - 6 tbsp extra virgin olive oil
 ---
 
-Every restaurant has a house dressing and your home should be no different. This is nothing more than fat and acid in a 3 to 1 ratio, seasoned properly, but with good ingredients it transforms a bowl of leaves into something great. There are only four things in it, so each one has to be of good quality. Use the best extra virgin olive oil you can buy.
+Every restaurant has a house dressing and your home should be no different. It should be nothing like the awful creamy salad dressings you get in the shops. This is nothing more than fat and acid in a 3 to 1 ratio, seasoned properly, but with good ingredients it transforms a bowl of leaves into something great. There are only four things in it, so each one has to be of good quality. Use the best extra virgin olive oil you can buy.
 
 ## Ingredients
 
@@ -35,8 +35,8 @@ Every restaurant has a house dressing and your home should be no different. This
 
 ## Notes
 
-Dissolve the salt in the vinegar before the oil goes anywhere near it. Salt won't dissolve in fat, and gritty dressing is unpleasant.
+Dissolve the salt in the vinegar before the oil goes anywhere near it. Salt won't dissolve in fat, and a gritty dressing is unpleasant.
 
 The 3 to 1 ratio is a starting point. Sharper leaves can take more acid, delicate ones want more oil. This is why you taste on a leaf: a dressing that tastes balanced on a spoon may taste different on lettuce.
 
-It will split as it sits. That's fine, it isn't a mayonnaise. Give it another shake just before it goes on.
+It will split as it sits. That's fine, it isn't a mayonnaise. This is actually preferable if it's mixed with tasty tomato juice from the salad. Give it another shake just before it goes on.
