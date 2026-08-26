@@ -14,7 +14,9 @@
     "astro": "^5.0.0"
   },
   "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
     "remark-breaks": "^4.0.0",
-    "sass": "^1.79.0"
+    "sass": "^1.79.0",
+    "satori": "^0.33.4"
   }
 }
