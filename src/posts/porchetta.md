@@ -33,7 +33,7 @@ table:
             - Maldon salt and coarse pepper to taste
 ---
 
-I had given this recipe a go a few times until me and [Tom](https://twitter.com/TomFaller) got it spot on last November for bonfire night. The crispy skin along with the juicy, salty meat makes it a great dish on its own or as part of a killer sandwich.
+A good porchetta is a wholesome bite and a good sign of skill. The crispy skin along with the juicy, salty meat makes it a great dish on its own or as part of a killer sandwich.
 
 You can be as rustic or fancy as you want with the preparation of this. I used a [trussing needle](https://www.boroughkitchen.com/products/wusthof-trussing-needle) to sew the skin together but I'll admit this was pretty hard going! You'd get just as good a finish by doing a [butchers knot](https://www.youtube.com/watch?v=2lbrqf-jv4w) all the way along the joint.
 
