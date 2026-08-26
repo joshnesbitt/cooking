@@ -2,7 +2,7 @@
 date: 2026-08-25
 permalink: /dinner-party-salad/index.html
 title: Dinner Party Salad
-description: Heritage tomatoes, butter lettuce and avocado. The salad for all occasions.
+description: Heritage tomatoes, butter lettuce and avocado. A great all-rounder.
 table:
   action: finish with Maldon and pepper, serve immediately
   from:
