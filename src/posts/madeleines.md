@@ -2,7 +2,7 @@
 date: 2024-06-27
 permalink: /madeleines/index.html
 title: St John's Madeleines
-description: The perfect light and sweet ending to an indulgent meal.
+description: The perfect light and sweet ending to a big meal.
 images:
   - path: /assets/posts/madeleines/1.jpg
     alt: Madeleine batter
@@ -49,7 +49,7 @@ St John is one of my absolute favourite restaurants. I've been obsessed with Fer
 ## Method
 
 1. Melt the butter and honey in a saucepan and leave to cool
-2. Whish the eggs, caster and brown sugar together for 10 minutes until the mixture has tripled in size
+2. Whisk the eggs, caster and brown sugar together for 10 minutes until the mixture has tripled in size
 3. Fold in the flour and butter to the rest of the batter mixture
 4. Decant into a piping bag and leave in the fridge for at least 3 hours
 5. Heat the oven to 180°C

@@ -2,7 +2,7 @@
 date: 2021-04-21
 permalink: /vanilla-custard/index.html
 title: Vanilla Custard
-description: We're reasonably obsessed with apple crumble in our house, and the perfect accompaniment to that is a homemade custard.
+description: Proper homemade custard, made for apple crumble.
 table:
   action: return to the saucepan and heat gently, stirring constantly
   from:
@@ -21,7 +21,7 @@ table:
 
 We're reasonably obsessed with [apple crumble](https://www.youtube.com/watch?v=cSriH6duR6M) in our house, and the perfect accompaniment to that is a homemade custard.
 
-It took me a few trial and error attempts to get the technique right, but once you've got it you'll definitely preference it over shop-bought.
+It took me a few trial and error attempts to get the technique right, but once you've got it you'll definitely prefer it over shop-bought.
 
 ## Ingredients
 

@@ -24,7 +24,7 @@ table:
     - 1 tbsp toasted sesame seeds (optional)
 ---
 
-Charred cabbage has been on every restaurant menu for years now, and for good reason. Done properly, the humble cabbage becomes something you'd happily order as a main. The trick is a hard char on the cut face for bitterness and smoke, then a glaze of brown butter and miso to bring the richness and umami.
+Charred cabbage has been on every restaurant menu for years now, and for good reason. Done properly, a cabbage becomes something you'd happily order as a main. The trick is a hard char on the cut face for bitterness and smoke, then a glaze of brown butter and miso to bring the richness and umami.
 
 ## Ingredients
 

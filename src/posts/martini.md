@@ -16,7 +16,7 @@ table:
         - 1 lemon
 ---
 
-The finest of all cocktails. Strong, cold and refreshing. Two ingredients and a piece of lemon peel, so the quality of the ingredients are important — the gin has to be good, the vermouth fresh, and everything has to be properly cold. This is a dry one with a twist.
+The finest of all cocktails. Strong, cold and refreshing. Two ingredients and a piece of lemon peel, so the quality of the ingredients is important: the gin has to be good, the vermouth fresh, and everything has to be properly cold. This is a dry one with a twist.
 
 ## Ingredients
 
@@ -35,9 +35,9 @@ The finest of all cocktails. Strong, cold and refreshing. Two ingredients and a 
 
 ## Notes
 
-If anything is lukewarm — the gin, the glass, your patience — the drink falls apart.
+If anything is lukewarm (the gin, the glass, your patience) the drink falls apart.
 
-Batching it in the freezer ensures consistency and scale, even more than with the [Negroni](/negroni). Multiply the gin and vermouth by the number of drinks, add 10% of the total volume in water (a martini takes on a little less dilution than a stirred-over-ice Negroni because it's served straight up), bottle it, and keep it in the freezer. It won't freeze — the drink pours at around -18°C, thick and viscous, colder than you could ever get it by stirring. Cut the twists fresh, though; the peel doesn't batch.
+Batching is even more worthwhile here than with the [Negroni](/negroni): every drink comes out identical, and ten is as easy as one. Multiply the gin and vermouth by the number of drinks, add 10% of the total volume in water (a martini takes on a little less dilution than a stirred-over-ice Negroni because it's served straight up), bottle it, and keep it in the freezer. It won't freeze; the drink pours at around -18°C, thick and viscous, colder than you could ever get it by stirring. Cut the twists fresh, though; the peel doesn't batch.
 
 ## Inspiration
 

@@ -2,7 +2,7 @@
 date: 2022-12-21
 permalink: /proper-roasties/index.html
 title: Proper Roasties
-description: Ever since we've been involved in the Christmas meal prep/service, I've had this recipe to rely on to ensure our roasties are crispy and delicious.
+description: Par-boiled, tossed in seasoned semolina and roasted in goose fat. The Christmas essential.
 images:
   - path: /assets/posts/proper-roasties/1.jpg
     alt: Proper roasties
@@ -44,7 +44,7 @@ Perfect on their own (with something to dip them in) or perfect with a roast.
 1. Prepare the semolina mixture by adding the salt and pepper and mixing
 1. When the potatoes are cool, toss them in the semolina until fully coated
 1. Pre-heat the oven to 220°C and add the fat to get up to temperature
-1. Add the potatoes to the fat one-by-one, ensuring no additional semolina clouds up the hot fat
+1. Add the potatoes to the fat one-by-one, so no additional semolina clouds up the hot fat
 1. Immediately turn the potatoes in the fat to ensure they're fully coated with hot fat
 1. Cook for 20 minutes and then check on them. Keep turning every 10 minutes to ensure all sides are evenly crispy
 1. They're cooked when the complete exterior is golden-brown

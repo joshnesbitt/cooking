@@ -2,7 +2,7 @@
 date: 2020-12-22
 permalink: /porchetta/index.html
 title: Porchetta
-description: I had given this recipe a go a few times until me and Tom got it spot on last November for bonfire night.
+description: Crispy skin and juicy, salty meat. Great on its own or in a killer sandwich.
 images:
   - path: /assets/posts/porchetta/1.jpg
     alt: Pork belly
@@ -70,4 +70,4 @@ Serve in a freshly grilled ciabatta rubbed with olive oil and salt. Fill with gr
 
 ## Inspiration
 
-There's a [great video](https://www.youtube.com/watch?v=o5qJ3MAPxS8) of a place called Vito’s Norcineria just south of Rome in a place called Marino. There are quite a few videos of the things Vito makes there like Salami, Prosciutto etc, but the Porchetta recipe is by far the best.
+There's a [great video](https://www.youtube.com/watch?v=o5qJ3MAPxS8) of a place called Vito's Norcineria just south of Rome in a place called Marino. There are quite a few videos of the things Vito makes there like Salami, Prosciutto etc, but the Porchetta recipe is by far the best.

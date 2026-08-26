@@ -2,12 +2,12 @@
 date: 2020-07-21
 permalink: /parisian-baguette/index.html
 title: Parisian Baguette
-description: A crusty baguette that, due to how it's fermented and prooved, is soft and airy on the inside.
+description: A crusty baguette, soft and airy inside thanks to a slow prove and a steamy oven.
 images:
   - path: /assets/posts/parisian-baguette/1.jpg
     alt: Parisian Baguette
   - path: /assets/posts/parisian-baguette/2.jpg
-    alt: Prooving
+    alt: Proving
   - path: /assets/posts/parisian-baguette/3.jpg
     alt: Parisian Baguettes
   - path: /assets/posts/parisian-baguette/4.jpg
@@ -15,9 +15,9 @@ images:
 table:
   action: bake at 230°C for 30-45 minutes until hollow-sounding
   from:
-    - action: shape into baguettes, proof 45 minutes and slash
+    - action: shape into baguettes, prove 45 minutes and slash
       from:
-        - action: mix to a loose dough, fold and proof for 2 hours
+        - action: mix to a loose dough, fold and prove for 2 hours
           from:
             - action: froth together
               from:
@@ -33,7 +33,7 @@ table:
         - A cup of cold water
 ---
 
-A crusty baguette that, due to how it's fermented and prooved, is soft and airy on the inside. It's quite possible to eat the entire thing immediately with [Beurre d'Isigny](https://en.wikipedia.org/wiki/Beurre_d%27Isigny) or as part of a [Jambom Beurre](https://en.wikipedia.org/wiki/Jambon-beurre).
+A crusty baguette that, due to how it's fermented and proved, is soft and airy on the inside. It's quite possible to eat the entire thing immediately with [Beurre d'Isigny](https://en.wikipedia.org/wiki/Beurre_d%27Isigny) or as part of a [Jambon Beurre](https://en.wikipedia.org/wiki/Jambon-beurre).
 
 ## Ingredients
 
@@ -53,18 +53,18 @@ You'll also want to hold back some flour for dusting.
 1. Add the yeast mixture to the dry ingredients and begin to mix
 1. Slowly add the tepid water, you probably won't need all 300ml
 1. Once the dough has come together, stop adding water. This is a lean dough (meaning no fat is present), and it should come to form quite a loose dough
-1. Place in a bowl, cover and proof for 30 minutes
+1. Place in a bowl, cover and prove for 30 minutes
 1. Take the dough out and form a rectangle. Fold each side into itself, turn the dough 90° and repeat until all four corners have been folded
 1. Repeat this process twice more
-1. Oil the bowl and add the dough back, cover and proof for another 2 hours
+1. Oil the bowl and add the dough back, cover and prove for another 2 hours
 1. Take the dough out (carefully) and divide into two
 1. Take each portion and repeat the folding process once. Allow 10 minutes to rest
 1. Roll each portion out into a baguette shape
-1. Once shaped, place on a floured teatowel and roll the sides up to support the baguette when proofing
-1. Cover and proof for another 45 minutes
-1. Preheat the oven on 230°C for at last 45 minutes before cooking. Ideally you want to be cooking on a pizza stone, if you don't have one you can use a tray
+1. Once shaped, place on a floured teatowel and roll the sides up to support the baguette when proving
+1. Cover and prove for another 45 minutes
+1. Preheat the oven on 230°C for at least 45 minutes before cooking. Ideally you want to be cooking on a pizza stone, if you don't have one you can use a tray
 1. Place the tray or stone towards the top of the oven. At the bottom you'll want to place a cast iron pot. This step is important, you need steam inside the oven to help create the crust
-1. Transfer the proofed baguettes to some floured baking paper, leaving a good distance between them so they don't touch each other. Cut 4 slits down each baguette at an angle
+1. Transfer the proved baguettes to some floured baking paper, leaving a good distance between them so they don't touch each other. Cut 4 slits down each baguette at an angle
 1. Get a cup of cold water ready before placing the baguettes in the oven
 1. Place the baguettes in the oven, pour the cold water in the cast iron pot and close the oven immediately
 1. Cook for 30-45 minutes. Keep an eye on the colour of the baguettes

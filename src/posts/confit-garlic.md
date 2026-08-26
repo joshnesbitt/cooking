@@ -18,7 +18,7 @@ table:
             - 400ml olive oil
 ---
 
-Confit garlic is one of those fridge staples that quietly makes everything else better. The cloves poach slowly in oil until they're soft, sweet and spreadable, losing all of the harshness of raw garlic along the way. You also end up with a bottle of garlic-infused oil as a by-product, which is arguably just as useful as the cloves themselves.
+Confit garlic is one of those fridge staples that makes everything else better. The cloves poach slowly in oil until they're soft, sweet and spreadable, losing all of the harshness of raw garlic along the way. You also end up with a bottle of garlic-infused oil as a by-product, which is arguably just as useful as the cloves themselves.
 
 ## Ingredients
 
@@ -31,7 +31,7 @@ Confit garlic is one of those fridge staples that quietly makes everything else 
 
 1. Peel all of the garlic cloves, discarding any that are bruised or sprouting
 1. Add the cloves, thyme and bay leaf to a small saucepan or oven dish
-1. Pour over the oil, ensuring every clove is fully submerged
+1. Pour over the oil so every clove is fully submerged
 1. Cook at 120°C in the oven (or on the lowest hob setting) for 1.5 to 2 hours, until the cloves are completely soft and lightly golden
 1. Leave to cool fully in the oil
 1. Transfer the cloves and oil to a sterilised jar and store in the fridge for up to 2 weeks

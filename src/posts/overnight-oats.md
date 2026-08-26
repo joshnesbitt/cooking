@@ -2,7 +2,7 @@
 date: 2022-02-16
 permalink: /overnight-oats/index.html
 title: Overnight Oats
-description: A simple, nutritional breakfast.
+description: A simple, nutritious breakfast.
 table:
   action: serve the next morning with additional honey
   from:

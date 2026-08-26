@@ -37,7 +37,7 @@ table:
     - 1 batch truffle white sauce
 ---
 
-[Stuzzi](https://stuzzi.co.uk/leeds/) makes the best arancini outside of Puglia (although I may be a bit biased as we got married there). There's something awesome about being served a deep fried ball of risotto the size of your fist, not to mention they stuff it with cheese or butter to make cutting it open make your mouth instantly water.
+[Stuzzi](https://stuzzi.co.uk/leeds/) makes the best arancini outside of Puglia (although I may be a bit biased as we got married there). There's something awesome about being served a deep fried ball of risotto the size of your fist, not to mention they stuff it with cheese or butter, so cutting it open makes your mouth instantly water.
 
 I had a go at recreating their style of arancini using wild mushrooms and stuffing it with mozzarella di bufala campana. You should definitely serve it with [truffle white sauce](/truffle-white-sauce).
 
@@ -73,9 +73,9 @@ I had a go at recreating their style of arancini using wild mushrooms and stuffi
 1. In the palm of your hands press the ball tightly ensuring it's as round as possible
 1. With one hand, roll the ball in the flour, then the eggs
 1. With the other hand roll the ball in the panko breadcrumbs and place onto a tray
-1. Repeat for however many balls you can get out of you mixture, it should make around 6
+1. Repeat for however many balls you can get out of your mixture, it should make around 6
 1. Heat enough vegetable oil to cover the balls in a large pan to 180°C
-1. Fry up to 3 balls at a time, ensuring it gets nice and golden on the outside and nice and runny on the inside (around 10 minutes)
+1. Fry up to 3 balls at a time, so they get nice and golden on the outside and nice and runny on the inside (around 10 minutes)
 1. Eat as quickly as possible to ensure the mozzarella is oozy, or hold at temperature in an oven at 180°C
 
 ## Notes

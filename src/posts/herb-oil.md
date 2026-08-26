@@ -22,7 +22,7 @@ table:
         - 1tsp Maldon sea salt
 ---
 
-I was originally looking for a way to infuse oil with coriander for the [burnt corn sea bream tartare](/burnt-corn-sea-bream-tartare) recipe when I discovered [this method][1]. Making the oil fresh really does dramatically change the flavour and is a nice way of introducing a herbs to a dish.
+I was originally looking for a way to infuse oil with coriander for the [burnt corn sea bream tartare](/burnt-corn-sea-bream-tartare) recipe when I discovered [this method][1]. Making the oil fresh really does change the flavour and is a nice way of introducing a herb to a dish.
 
 ## Ingredients
 
@@ -43,7 +43,7 @@ I was originally looking for a way to infuse oil with coriander for the [burnt c
 
 ## Notes
 
-Ensure you leave the mixture to strain overnight so you get all of the oil and herb pigments for a more vibrant colour.
+Don't rush the overnight strain. That's where the last of the oil and the deep green colour come from.
 
 ## Inspiration
 

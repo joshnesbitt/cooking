@@ -2,7 +2,7 @@
 date: 2020-05-25
 permalink: /tuna-mojama/index.html
 title: Tuna Mojama
-description: This was my first attempt at Mojama, a sort of tuna ham.
+description: A sort of tuna ham, cured and aged for a month. A proper umami punch.
 images:
   - path: /assets/posts/tuna-mojama/1.jpg
     alt: Tuna fillet
@@ -32,9 +32,9 @@ table:
                 - 1tsp garlic powder
 ---
 
-This was [my first attempt](https://www.instagram.com/p/CAqgzBIHQVC/) at Mojama, a sort of tuna ham. There are so many points at which you can change the recipe on this one, from the drying time to the rub, each producing their own nuances in the flavour. It's pretty simple to do, and if you're into cured meats, it's worth a try!
+This was [my first attempt](https://www.instagram.com/p/CAqgzBIHQVC/) at Mojama, a sort of tuna ham. There are so many ways to vary this one, from the drying time to the rub, and each one changes the flavour in its own way. It's pretty simple to do, and if you're into cured meats, it's worth a try!
 
-It’s a proper umami punch and not at all fishy. This version had 35 days on it but could have definitely had longer to make the flavour more intense.
+It's a proper umami punch and not at all fishy. This version had 35 days on it but could have definitely had longer to make the flavour more intense.
 
 ## Ingredients
 
@@ -55,7 +55,7 @@ The salt ratios are important. You need the salt to actually cure the meat (prev
 * Trim any excess fat off the tuna fillet and pat dry
 * Mix all the dry ingredients together
 * Rub the tuna all over with the dry mix
-* Vaccum pack the tuna with the dry rub and refrigerate for 4 days
+* Vacuum pack the tuna with the dry rub and refrigerate for 4 days
 * Take the tuna out of the sealed pack and place on a drying rack in the fridge
 * Age for at least 30 days, the longer you leave it the more intense the flavour will be (but be careful not to dry it out too quickly, e.g. outside of a moisture controlled environment)
 

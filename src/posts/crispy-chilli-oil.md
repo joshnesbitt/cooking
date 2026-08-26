@@ -2,7 +2,7 @@
 date: 2024-06-02
 permalink: /crispy-chilli-oil/index.html
 title: Crispy Chilli Oil
-description: The make-once, put-on-everything condiment. Crunchy, savoury and not just about the heat.
+description: The make-once, put-on-everything condiment. More about the crunch than the heat.
 table:
   action: stir in soy sauce, cool, then crumble the crispy bits back in and jar
   from:

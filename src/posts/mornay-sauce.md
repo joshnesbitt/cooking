@@ -2,7 +2,7 @@
 date: 2021-01-27
 permalink: /mornay-sauce/index.html
 title: Mornay Sauce
-description: Better than parsely sauce.
+description: Better than parsley sauce.
 table:
   action: stir in the cheese and leeks, then season
   from:
@@ -21,7 +21,7 @@ table:
     - 100g mature cheddar cheese
 ---
 
-[Another sauce](/truffle-white-sauce) which starts off life as a roux, Mornay Sauce is a onion and cheese sauce that goes well with fish. It's also commonly used in French breakfast recipes with eggs. It's strong in flavour, where there's definitely creative license to how much cheese you add in the final step.
+[Another sauce](/truffle-white-sauce) which starts off life as a roux, Mornay Sauce is an onion and cheese sauce that goes well with fish. It's also commonly used in French breakfast recipes with eggs. It's strong in flavour, and there's definitely creative licence in how much cheese you add in the final step.
 
 ## Ingredients
 

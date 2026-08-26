@@ -2,7 +2,7 @@
 date: 2026-08-25
 permalink: /dinner-party-salad/index.html
 title: Dinner Party Salad
-description: Heritage tomatoes, butter lettuce and avocado. The salad for all occasions.
+description: Heritage tomatoes, butter lettuce and avocado. A great all-rounder.
 table:
   action: finish with Maldon and pepper, serve immediately
   from:
@@ -27,7 +27,7 @@ table:
             - 2 ripe avocados
 ---
 
-This is the salad I make when people are coming round. It's incredibly basic and easy to make: three good ingredients and a proper [house dressing](/house-dressing), assembled with a bit of care. It goes with roast chicken, with [porchetta](/porchetta) or with a barbecue. Buy ripe tomatoes that actually smell of tomato because they're a massive part of the salad.
+This is the salad I make when people are coming round. It's dead simple: three good ingredients and a proper [house dressing](/house-dressing), assembled with a bit of care. It goes with roast chicken, with [porchetta](/porchetta) or with a barbecue. Buy ripe tomatoes that actually smell of tomato because they're a massive part of the salad.
 
 ## Ingredients
 

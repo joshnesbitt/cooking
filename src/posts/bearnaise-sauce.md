@@ -2,7 +2,7 @@
 date: 2022-01-19
 permalink: /bearnaise-sauce/index.html
 title: Béarnaise Sauce
-description: A simple way of flavouring oil with herbs.
+description: Tarragon, shallots and a lot of butter. The best sauce to have with a steak.
 table:
   action: fold in 50g fresh tarragon to finish
   from:
@@ -45,7 +45,7 @@ Alongside peppercorn, this is the best sauce you can have with a steak. Remove t
 1. Add the butter to a pan and melt completely (don't worry about clarifying it)
 1. In a bowl, whisk the yolks to an emulsion
 1. Add the vinegar mixture to the emulsion and continue to whisk
-1. Slowly and steadily add the tarragon vinegar to the emulsion, continue whisking
+1. Slowly and steadily add the melted butter to the emulsion, whisking constantly until thick and glossy
 1. Once both mixtures are combined, add the remaining 50g of fresh tarragon and the sauce is done
 
 ## Notes
