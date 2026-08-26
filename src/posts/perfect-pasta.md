@@ -2,7 +2,7 @@
 date: 2020-07-20
 permalink: /perfect-pasta/index.html
 title: Perfect Pasta
-description: A perfect dough ball of pasta, whether you're rolling it into lasagna sheets or making noodles, it's the best recipe I've found.
+description: Two eggs, four yolks and 00 flour. The best pasta dough I've found.
 table:
   action: roll into sheets or cut into noodles
   from:
@@ -15,7 +15,7 @@ table:
             - 4 egg yolks
 ---
 
-A perfect dough ball of pasta, whether you're rolling it into lasagna sheets or making noodles, it's the best recipe I've found.
+A perfect dough ball of pasta, whether you're rolling it into lasagne sheets or making noodles, it's the best recipe I've found.
 
 ## Ingredients
 
@@ -38,4 +38,4 @@ I'd recommend semolina for dusting (and additional texture) whilst working with 
 
 ## Inspiration
 
-Samin Nosrat (creator of Salt Fat Acid Heat) has a brilliant [Pasta all’Uovo](https://www.saltfatacidheat.com/fat/pasta-alluovo) recipe which I stole the recipe from. This is pretty much that but with an extra yolk.
+Samin Nosrat (creator of Salt Fat Acid Heat) has a brilliant [Pasta all'Uovo](https://www.saltfatacidheat.com/fat/pasta-alluovo) recipe which I stole the recipe from. This is pretty much that but with an extra yolk.

@@ -16,7 +16,7 @@ table:
     - 10ml sugar syrup
 ---
 
-I love boozy cocktails. The Eastern Standard is a nice depature from the pure-alcohol ones I usually tend to order. With the cucumber, mint and lime, it's a fresh cocktail that must be served cold.
+I love boozy cocktails. The Eastern Standard is a nice departure from the pure-alcohol ones I usually tend to order. With the cucumber, mint and lime, it's a fresh cocktail that must be served cold.
 
 ## Ingredients
 

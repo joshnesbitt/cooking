@@ -2,7 +2,7 @@
 date: 2020-07-29
 permalink: /poolish/index.html
 title: Poolish (pre-ferment)
-description: Poolish is the French word for a pre-ferment, or starter.
+description: A pre-ferment for better bread. All it needs is time.
 images:
   - path: /assets/posts/poolish/1.jpg
     alt: Poolish starter mix
@@ -20,7 +20,7 @@ table:
         - 0.2g dry active yeast
 ---
 
-Poolish is the French word for a pre-ferment, or starter. A starter usually contains flour, water and a leavening agent (usually yeast or sourdough culture), and is added to a a dough instead of using yeast directly.
+Poolish is the French word for a pre-ferment, or starter. A starter usually contains flour, water and a leavening agent (usually yeast or sourdough culture), and is added to a dough instead of using yeast directly.
 
 Using a starter can lead to a totally different texture in the bread you're making. I started researching Poolish while looking at how to create [Parisian Baguettes](/parisian-baguette), and a poolish is a key part of this recipe as you want the inside of the bread to be soft, chewy and airy.
 
@@ -40,7 +40,7 @@ The main thing you need for a pre-ferment is time. Time allows the yeast to work
 
 ## Notes
 
-Due to the not-so-consistent weather in the UK I've dedicated my loft as my "proofing room" for the poolish. It's consistently warmer up there and I find the dried yeast reactivates well up there.
+Due to the not-so-consistent weather in the UK I've dedicated my loft as my "proofing room" for the poolish. It's consistently warmer up there and I find the dried yeast reactivates well.
 
 The [article I used as a reference][1] outlines the ratios of dried yeast to use against equal parts flour and water (both measured in weight).
 

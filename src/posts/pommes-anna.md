@@ -2,7 +2,7 @@
 date: 2020-12-07
 permalink: /pommes-anna/index.html
 title: Pommes Anna
-description: Ox Club in Leeds makes the best Pommes Anna, hands down. After stealing the recipe from one of the chefs there, I saw Big Has had done a set of stories on how to make potato cakes, which helped get this recipe just right.
+description: Layers of butter-dipped potato, pressed, baked, chilled and fried into golden cubes.
 images:
   - path: /assets/posts/pommes-anna/1.jpg
     alt: Pommes Anna
@@ -47,7 +47,7 @@ Ox Club in Leeds makes the best Pommes Anna, hands down. After stealing the reci
 1. Melt the butter in a pan on a low heat with the garlic and rosemary
 1. Once melted, mash all the flavours together and sieve the butter out
 1. Peel the potatoes
-1. Set a mandolin to the thinest setting (or the thinest you can to allow it to evenly slice the potato)
+1. Set a mandolin to the thinnest setting (or the thinnest you can to allow it to evenly slice the potato)
 1. Slice the potatoes into a tub of water to stop them browning
 1. Drain the potatoes and dry thoroughly on kitchen roll
 1. Get two tins that fit inside each other, the top one will be for pressing the contents of the bottom one

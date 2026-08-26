@@ -2,7 +2,7 @@
 date: 2020-09-16
 permalink: /lobster-humanely-killing/index.html
 title: Lobster (humanely killing)
-description: Lobster and chips is probably one of the best dishes ever made. Ever since I first tried lobster I wanted to feel comfortable cooking it.
+description: How to dispatch a lobster quickly and humanely before cooking it.
 images:
   - path: /assets/posts/lobster-humanely-killing/1.jpg
     alt: Lobsters
@@ -34,7 +34,7 @@ I did a lot of research before doing this, mainly because while I like eating lo
 1. Swiftly move the lobster from the freezer to a chopping board
 1. Flip the lobster onto its back and grip firmly with one hand, knife in the other
 1. "Spike" or pierce the lobster with the knife from the back of the legs right down the head to between the eyes
-1. While the lobster is now dead, it's body will continue to move due to it's decentralised nervous system. This is (understandably) a part of killing your own lobster that freaks a lot of people out
+1. While the lobster is now dead, its body will continue to move due to its decentralised nervous system. This is (understandably) a part of killing your own lobster that freaks a lot of people out
 1. Cook the lobster immediately (e.g. [boiling](/lobster-boiling) or [grilling](/lobster-grilling))
 
 ## Notes

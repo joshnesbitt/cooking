@@ -24,7 +24,7 @@ table:
             - 1 tsp black peppercorns
 ---
 
-Stock is the least glamorous thing you can make and probably the most important. Shop-bought stock is fine, but a proper homemade chicken stock is on another level, and it's mostly passive time. Roasting the bones first gives you a deeper, golden stock, and once you have it you can reduce it down into something approaching a restaurant sauce base.
+Stock is the least glamorous thing you can make and probably the most important. Shop-bought stock is fine, but a proper homemade chicken stock is a different thing entirely, and it's mostly passive time. Roasting the bones first gives you a deeper, golden stock, and once you have it you can reduce it down into something approaching a restaurant sauce base.
 
 ## Ingredients
 

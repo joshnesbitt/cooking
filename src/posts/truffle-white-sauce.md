@@ -2,7 +2,7 @@
 date: 2020-12-05
 permalink: /truffle-white-sauce/index.html
 title: Truffle White Sauce
-description: This sauce is nothing more than a traditional roux with truffle salsa in it, but it's a superb addition to any pasta or fried dish (like arancini).
+description: A roux with truffle salsa stirred through. Superb with pasta or arancini.
 table:
   action: stir in the truffle salsa to taste, adding salt if needed
   from:

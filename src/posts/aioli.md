@@ -2,7 +2,7 @@
 date: 2025-07-19
 permalink: /aioli/index.html
 title: Aioli
-description: A garlicy punch.
+description: A garlicky punch.
 table:
   action: blend until smooth
   from:
