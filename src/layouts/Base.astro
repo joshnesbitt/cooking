@@ -5,17 +5,17 @@ import '../styles/index.scss';
 interface Props {
   title?: string;
   description?: string;
-  images?: { path: string; alt: string }[];
   isPost?: boolean;
+  slug?: string;
 }
 
-const { title, description, images, isPost = false } = Astro.props;
+const { title, description, isPost = false, slug } = Astro.props;
 
 const metaUrl = new URL(Astro.url.pathname, config.domain).href;
 const metaTitle = isPost && title ? `${title} · ${config.title}` : config.title;
 const metaDescription = (isPost && description) || config.description;
-const metaImagePath = images?.length ? images[images.length - 1].path : '/assets/background.jpg';
-const metaImage = new URL(metaImagePath, config.domain).href;
+// Every page gets a generated ledger card (see pages/og/[slug].png.ts)
+const metaImage = new URL(`/og/${slug ?? 'default'}.png`, config.domain).href;
 ---
 
 <!doctype html>
@@ -30,7 +30,7 @@ const metaImage = new URL(metaImagePath, config.domain).href;
     <meta property="og:title" content={metaTitle} />
     <meta property="og:description" content={metaDescription} />
     <meta property="og:image" content={metaImage} />
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@joshnesbitt" />
     <meta name="twitter:creator" content="@joshnesbitt" />
     <meta name="twitter:url" content={metaUrl} />

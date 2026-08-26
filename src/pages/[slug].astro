@@ -26,7 +26,7 @@ const introHtml = await renderMarkdown(splitAt === -1 ? body : body.slice(0, spl
 const sectionsHtml = splitAt === -1 ? '' : await renderMarkdown(body.slice(splitAt));
 ---
 
-<Base title={post.data.title} description={post.data.description} images={images} isPost>
+<Base title={post.data.title} description={post.data.description} isPost slug={post.id}>
   <div class="o-container">
     <header class="o-spec">
       <p class="o-spec__no">Entry #{String(entryNo).padStart(2, '0')} · {type}</p>
