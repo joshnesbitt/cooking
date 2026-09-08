@@ -1,0 +1,66 @@
+---
+import Base from '../layouts/Base.astro';
+import { glossary, mentionsTerm } from '../lib/glossary';
+import { getPostsChronological } from '../lib/posts';
+
+const posts = await getPostsChronological();
+
+const terms = [...glossary]
+  .sort((a, b) => a.term.localeCompare(b.term))
+  .map((term) => ({
+    term,
+    entry: term.entry ? posts.find((post) => post.id === term.entry) : undefined,
+    usedIn: posts.filter(
+      (post) => post.id !== term.entry && mentionsTerm(term, post.body ?? '')
+    ),
+  }));
+---
+
+<Base
+  title="Glossary"
+  description="The jargon that keeps coming up in the log, defined once."
+>
+  <div class="o-container">
+    <header class="o-masthead">
+      <h1 class="o-masthead__title">Glossary</h1>
+      <p class="o-masthead__sub">
+        The jargon that keeps coming up in the log, defined once. {terms.length} terms.
+      </p>
+    </header>
+
+    <dl class="o-glossary">
+      {
+        terms.map(({ term, entry, usedIn }) => (
+          <div class="o-glossary__item" id={term.id}>
+            <dt class="o-glossary__term">{term.term}</dt>
+            <dd class="o-glossary__body">
+              <p>{term.definition}</p>
+              {(entry || usedIn.length > 0) && (
+                <p class="o-glossary__uses">
+                  {entry && (
+                    <span>
+                      Entry: <a href={`/${entry.id}/`}>{entry.data.title}</a>
+                    </span>
+                  )}
+                  {entry && usedIn.length > 0 && ' · '}
+                  {usedIn.length > 0 && (
+                    <span>
+                      Used in:{' '}
+                      {usedIn.map((post, index) => (
+                        <>{index > 0 && ', '}<a href={`/${post.id}/`}>{post.data.title}</a></>
+                      ))}
+                    </span>
+                  )}
+                </p>
+              )}
+            </dd>
+          </div>
+        ))
+      }
+    </dl>
+
+    <div class="o-back">
+      <a href="/">← Back to the log</a>
+    </div>
+  </div>
+</Base>

@@ -1,0 +1,45 @@
+.o-glossary {
+  margin: 0;
+
+  &__item {
+    padding: 1.3em 0.5em;
+    border-bottom: 1px solid $color-rule;
+    scroll-margin-top: $spacing-unit * 2;
+
+    &:target {
+      background: $color-tint;
+    }
+  }
+
+  &__term {
+    font-family: $font-sans;
+    font-weight: 500;
+    margin-bottom: 0.35em;
+  }
+
+  &__body {
+    margin: 0;
+
+    p {
+      margin: 0;
+    }
+
+    p + p {
+      margin-top: 0.7em;
+    }
+  }
+
+  &__uses {
+    font-family: $font-mono;
+    font-size: 0.78em;
+    color: $color-muted;
+
+    a {
+      color: inherit;
+
+      &:hover {
+        color: $color-accent;
+      }
+    }
+  }
+}

@@ -3,6 +3,7 @@ import Base from '../layouts/Base.astro';
 import RecipeTable from '../components/RecipeTable.astro';
 import { getPostsChronological } from '../lib/posts';
 import { renderMarkdown } from '../lib/markdown';
+import { linkGlossaryTerms } from '../lib/glossary';
 
 export async function getStaticPaths() {
   const posts = await getPostsChronological();
@@ -22,11 +23,17 @@ const logged = post.data.date.toISOString().slice(0, 10);
 // between the introductory text and the Ingredients/Method sections
 const body = post.body ?? '';
 const splitAt = body.search(/^## /m);
-const introHtml = await renderMarkdown(splitAt === -1 ? body : body.slice(0, splitAt));
-const sectionsHtml = splitAt === -1 ? '' : await renderMarkdown(body.slice(splitAt));
+const rawIntroHtml = await renderMarkdown(splitAt === -1 ? body : body.slice(0, splitAt));
+const rawSectionsHtml = splitAt === -1 ? '' : await renderMarkdown(body.slice(splitAt));
+
+// Link the first mention of each glossary term to the glossary page; state
+// is shared so a term linked in the intro isn't linked again in the sections
+const glossaryState = { linked: new Set<string>() };
+const introHtml = linkGlossaryTerms(rawIntroHtml, glossaryState, post.id);
+const sectionsHtml = linkGlossaryTerms(rawSectionsHtml, glossaryState, post.id);
 ---
 
-<Base title={post.data.title} description={post.data.description} isPost slug={post.id}>
+<Base title={post.data.title} description={post.data.description} slug={post.id}>
   <div class="o-container">
     <header class="o-spec">
       <p class="o-spec__no">Entry #{String(entryNo).padStart(2, '0')} · {type}</p>
