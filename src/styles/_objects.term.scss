@@ -1,8 +1,10 @@
 // In-prose links to appendix definitions. Styled apart from ordinary links
 // so a definition doesn't read as navigation: ink-coloured with a dotted
-// underline, taking the accent only on hover. The definition itself rides
-// along in data-def and surfaces as a popover on hover or keyboard focus;
-// the link through to the appendix stays for everyone else.
+// underline, taking the accent only on hover. The definition rides along
+// as a hidden span (aria-hidden, so the link's accessible name stays just
+// the term) and surfaces as a popover on hover or keyboard focus. Because
+// the span lives inside the anchor, moving the mouse onto the popover
+// keeps it open; the show delay stops it flashing on mouse sweeps.
 .o-term {
   position: relative;
   color: inherit;
@@ -10,41 +12,81 @@
   text-decoration-color: $color-muted;
   text-decoration-thickness: 1px;
 
-  &:hover {
+  &:hover,
+  &:focus-visible {
     color: $color-accent;
     text-decoration-color: currentColor;
   }
 
-  &::after {
-    content: attr(data-def);
-    // Alternative-text syntax keeps the duplicate definition out of the
-    // accessibility tree where supported
-    content: attr(data-def) / '';
+  &__pop {
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
-    top: calc(100% + 0.5em);
-    z-index: 1;
-    width: 320px;
-    max-width: 75vw;
-    padding: 0.75em 0.9em;
+    top: calc(100% + 0.55em);
+    transform: translateX(-50%) translateY(0.3em);
+    z-index: 2;
+    width: 330px;
+    max-width: 82vw;
+    padding: 0.7em 0.95em 0.85em;
     background: $color-bg;
     border: 1px solid $color-rule-strong;
-    border-radius: 3px;
-    box-shadow: 0 2px 10px rgba(36, 41, 44, 0.08);
+    border-radius: 4px;
+    box-shadow:
+      0 1px 2px rgba(36, 41, 44, 0.05),
+      0 10px 28px rgba(36, 41, 44, 0.12);
     color: $color-ink;
     font-family: $font-serif;
-    font-size: 0.82em;
-    line-height: 1.5;
+    font-size: 0.85em;
+    font-weight: 400;
+    line-height: 1.55;
+    text-align: left;
     white-space: normal;
+    visibility: hidden;
     opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.15s ease;
+    transition:
+      opacity 0.15s ease,
+      transform 0.15s ease,
+      visibility 0s linear 0.15s;
   }
 
-  &:hover::after,
-  &:focus-visible::after {
+  &:hover > &__pop,
+  &:focus-visible > &__pop {
+    visibility: visible;
     opacity: 1;
-    transition-delay: 0.15s;
+    transform: translateX(-50%) translateY(0);
+    transition:
+      opacity 0.15s ease 0.3s,
+      transform 0.15s ease 0.3s,
+      visibility 0s linear 0.3s;
+  }
+
+  &__pop-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.55em;
+    border-bottom: 1px solid $color-rule;
+    font-family: $font-mono;
+    font-size: 0.68em;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  &__pop-term {
+    color: $color-accent;
+  }
+
+  &__pop-hint {
+    color: $color-muted;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    &__pop,
+    &:hover > &__pop,
+    &:focus-visible > &__pop {
+      transition: visibility 0s linear;
+      transform: translateX(-50%);
+    }
   }
 }

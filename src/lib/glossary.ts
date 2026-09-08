@@ -170,8 +170,8 @@ export function mentionsTerm(term: GlossaryTerm, body: string): boolean {
   return termPattern(term).test(prose);
 }
 
-const escapeAttr = (value: string) =>
-  value.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+const escapeHtml = (value: string) =>
+  value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
 // Tags whose contents should never gain glossary links
 const skipTag = /^(?:a|code|pre|h[1-6]|script|style)$/;
@@ -181,10 +181,12 @@ export interface GlossaryLinkState {
 }
 
 // Wrap the first mention of each glossary term in a link to the appendix
-// page, carrying the definition in data-def for the hover popover. State is
-// shared across calls so a post split into fragments still links each term
-// once. Mentions of a term on its own entry page are left alone (the
-// appendix would only point straight back).
+// page, with the definition embedded as a hidden span that surfaces as a
+// hover/focus popover. The span sits inside the anchor so hovering the
+// popover keeps it open; aria-hidden keeps the link's accessible name to
+// just the term. State is shared across calls so a post split into
+// fragments still links each term once. Mentions of a term on its own
+// entry page are left alone (the appendix would only point straight back).
 export function linkGlossaryTerms(
   html: string,
   state: GlossaryLinkState,
@@ -213,9 +215,16 @@ export function linkGlossaryTerms(
       if (!best) return result + rest;
 
       state.linked.add(best.term.id);
+      const pop =
+        `<span class="o-term__pop" aria-hidden="true">` +
+        `<span class="o-term__pop-head">` +
+        `<span class="o-term__pop-term">${escapeHtml(best.term.term)}</span>` +
+        `<span class="o-term__pop-hint">appendix →</span>` +
+        `</span>` +
+        `${escapeHtml(best.term.definition)}</span>`;
       result +=
         rest.slice(0, best.index) +
-        `<a class="o-term" href="/appendix/#${best.term.id}" data-def="${escapeAttr(best.term.definition)}">${best.match}</a>`;
+        `<a class="o-term" href="/appendix/#${best.term.id}">${best.match}${pop}</a>`;
       rest = rest.slice(best.index + best.match.length);
     }
   };
