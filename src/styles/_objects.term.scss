@@ -1,7 +1,10 @@
-// In-prose links to glossary definitions. Styled apart from ordinary links
+// In-prose links to appendix definitions. Styled apart from ordinary links
 // so a definition doesn't read as navigation: ink-coloured with a dotted
-// underline, taking the accent only on hover.
+// underline, taking the accent only on hover. The definition itself rides
+// along in data-def and surfaces as a popover on hover or keyboard focus;
+// the link through to the appendix stays for everyone else.
 .o-term {
+  position: relative;
   color: inherit;
   text-decoration-style: dotted;
   text-decoration-color: $color-muted;
@@ -10,5 +13,38 @@
   &:hover {
     color: $color-accent;
     text-decoration-color: currentColor;
+  }
+
+  &::after {
+    content: attr(data-def);
+    // Alternative-text syntax keeps the duplicate definition out of the
+    // accessibility tree where supported
+    content: attr(data-def) / '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: calc(100% + 0.5em);
+    z-index: 1;
+    width: 320px;
+    max-width: 75vw;
+    padding: 0.75em 0.9em;
+    background: $color-bg;
+    border: 1px solid $color-rule-strong;
+    border-radius: 3px;
+    box-shadow: 0 2px 10px rgba(36, 41, 44, 0.08);
+    color: $color-ink;
+    font-family: $font-serif;
+    font-size: 0.82em;
+    line-height: 1.5;
+    white-space: normal;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s ease;
+  }
+
+  &:hover::after,
+  &:focus-visible::after {
+    opacity: 1;
+    transition-delay: 0.15s;
   }
 }

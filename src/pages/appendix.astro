@@ -4,6 +4,9 @@ import { glossary, mentionsTerm } from '../lib/glossary';
 import { getPostsChronological } from '../lib/posts';
 
 const posts = await getPostsChronological();
+const entryNo = new Map(posts.map((post, index) => [post.id, index + 1]));
+const label = (post: (typeof posts)[number]) =>
+  `${String(entryNo.get(post.id)).padStart(2, '0')} ${post.data.title}`;
 
 const terms = [...glossary]
   .sort((a, b) => a.term.localeCompare(b.term))
@@ -14,32 +17,41 @@ const terms = [...glossary]
       (post) => post.id !== term.entry && mentionsTerm(term, post.body ?? '')
     ),
   }));
+
+// Drift detection: a term no entry mentions any more has rotted out of the
+// log and should be pruned (or its aliases fixed)
+for (const { term, entry, usedIn } of terms) {
+  if (!entry && usedIn.length === 0) {
+    console.warn(`[appendix] "${term.term}" is not mentioned by any entry`);
+  }
+}
 ---
 
 <Base
-  title="Glossary"
+  title="Appendix"
   description="Definitions of technical terms used in the log."
+  slug="appendix"
 >
   <div class="o-container">
     <header class="o-masthead">
-      <h1 class="o-masthead__title">Glossary</h1>
+      <h1 class="o-masthead__title">Appendix</h1>
       <p class="o-masthead__sub">
         Definitions of technical terms used in the log.
       </p>
     </header>
 
-    <dl class="o-glossary">
+    <dl class="o-appendix">
       {
         terms.map(({ term, entry, usedIn }) => (
-          <div class="o-glossary__item" id={term.id}>
-            <dt class="o-glossary__term">{term.term}</dt>
-            <dd class="o-glossary__body">
+          <div class="o-appendix__item" id={term.id}>
+            <dt class="o-appendix__term">{term.term}</dt>
+            <dd class="o-appendix__body">
               <p>{term.definition}</p>
               {(entry || usedIn.length > 0) && (
-                <p class="o-glossary__uses">
+                <p class="o-appendix__uses">
                   {entry && (
                     <span>
-                      Entry: <a href={`/${entry.id}/`}>{entry.data.title}</a>
+                      Entry: <a href={`/${entry.id}/`}>{label(entry)}</a>
                     </span>
                   )}
                   {entry && usedIn.length > 0 && ' · '}
@@ -47,7 +59,7 @@ const terms = [...glossary]
                     <span>
                       Used in:{' '}
                       {usedIn.map((post, index) => (
-                        <>{index > 0 && ', '}<a href={`/${post.id}/`}>{post.data.title}</a></>
+                        <>{index > 0 && ', '}<a href={`/${post.id}/`}>{label(post)}</a></>
                       ))}
                     </span>
                   )}

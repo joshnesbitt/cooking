@@ -187,4 +187,67 @@ async function renderPng(node: Node): Promise<Uint8Array> {
   return new Resvg(svg, { fitTo: { mode: 'width', value: 1200 } }).render().asPng();
 }
 
-export { recipeCard, defaultCard, renderPng };
+function appendixCard(termCount: number, termRange: string): Node {
+  return h(
+    'div',
+    {
+      width: '1200px',
+      height: '630px',
+      display: 'flex',
+      flexDirection: 'column',
+      padding: '64px 72px',
+      backgroundColor: colors.bg,
+      color: colors.ink,
+      fontFamily: serif,
+    },
+    h(
+      'div',
+      {
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'baseline',
+        paddingBottom: '20px',
+        borderBottom: `2px solid ${colors.ink}`,
+        ...monoLabel,
+      },
+      h('span', { color: colors.accent }, config.title),
+      h('span', { color: colors.muted }, `${termCount} terms`)
+    ),
+    h(
+      'div',
+      { display: 'flex', flexDirection: 'column', justifyContent: 'center', flexGrow: 1 },
+      h(
+        'div',
+        {
+          fontSize: '104px',
+          fontWeight: 600,
+          lineHeight: 1.02,
+          letterSpacing: '-0.01em',
+          marginBottom: '30px',
+        },
+        'Appendix'
+      ),
+      h(
+        'div',
+        { fontSize: '32px', lineHeight: 1.35, color: colors.muted, maxWidth: '760px' },
+        'Definitions of technical terms used in the log.'
+      )
+    ),
+    h(
+      'div',
+      {
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        paddingTop: '22px',
+        borderTop: `1px solid ${colors.ruleStrong}`,
+        color: colors.muted,
+        ...monoLabel,
+      },
+      h('span', {}, termRange),
+      h('span', { color: colors.accent }, new URL(config.domain).hostname)
+    )
+  );
+}
+
+export { recipeCard, defaultCard, appendixCard, renderPng };

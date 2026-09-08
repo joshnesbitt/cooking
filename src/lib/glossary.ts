@@ -1,5 +1,5 @@
 export interface GlossaryTerm {
-  // Anchor on the glossary page (/glossary/#id)
+  // Anchor on the appendix page (/appendix/#id)
   id: string;
   term: string;
   definition: string;
@@ -170,6 +170,9 @@ export function mentionsTerm(term: GlossaryTerm, body: string): boolean {
   return termPattern(term).test(prose);
 }
 
+const escapeAttr = (value: string) =>
+  value.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+
 // Tags whose contents should never gain glossary links
 const skipTag = /^(?:a|code|pre|h[1-6]|script|style)$/;
 
@@ -177,10 +180,11 @@ export interface GlossaryLinkState {
   linked: Set<string>;
 }
 
-// Wrap the first mention of each glossary term in a link to the glossary
-// page. State is shared across calls so a post split into fragments still
-// links each term once. Mentions of a term on its own entry page are left
-// alone (the glossary would only point straight back).
+// Wrap the first mention of each glossary term in a link to the appendix
+// page, carrying the definition in data-def for the hover popover. State is
+// shared across calls so a post split into fragments still links each term
+// once. Mentions of a term on its own entry page are left alone (the
+// appendix would only point straight back).
 export function linkGlossaryTerms(
   html: string,
   state: GlossaryLinkState,
@@ -211,7 +215,7 @@ export function linkGlossaryTerms(
       state.linked.add(best.term.id);
       result +=
         rest.slice(0, best.index) +
-        `<a class="o-term" href="/glossary/#${best.term.id}">${best.match}</a>`;
+        `<a class="o-term" href="/appendix/#${best.term.id}" data-def="${escapeAttr(best.term.definition)}">${best.match}</a>`;
       rest = rest.slice(best.index + best.match.length);
     }
   };
