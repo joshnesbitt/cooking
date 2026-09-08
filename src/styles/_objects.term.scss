@@ -1,0 +1,14 @@
+// In-prose links to glossary definitions. Styled apart from ordinary links
+// so a definition doesn't read as navigation: ink-coloured with a dotted
+// underline, taking the accent only on hover.
+.o-term {
+  color: inherit;
+  text-decoration-style: dotted;
+  text-decoration-color: $color-muted;
+  text-decoration-thickness: 1px;
+
+  &:hover {
+    color: $color-accent;
+    text-decoration-color: currentColor;
+  }
+}

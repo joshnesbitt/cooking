@@ -104,6 +104,13 @@ export const glossary: GlossaryTerm[] = [
     entry: 'tuna-mojama',
   },
   {
+    id: 'muddle',
+    term: 'muddle',
+    definition:
+      'Pressing fruit or herbs in the bottom of a shaker or glass to release their juice and oils. Press and twist gently rather than pulverise: smashed mint turns a drink bitter.',
+    aliases: ['muddle', 'muddles', 'muddled', 'muddling'],
+  },
+  {
     id: 'poolish',
     term: 'poolish',
     definition:
@@ -204,7 +211,7 @@ export function linkGlossaryTerms(
       state.linked.add(best.term.id);
       result +=
         rest.slice(0, best.index) +
-        `<a href="/glossary/#${best.term.id}">${best.match}</a>`;
+        `<a class="o-term" href="/glossary/#${best.term.id}">${best.match}</a>`;
       rest = rest.slice(best.index + best.match.length);
     }
   };
