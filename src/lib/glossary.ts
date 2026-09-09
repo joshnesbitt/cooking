@@ -14,7 +14,7 @@ export const glossary: GlossaryTerm[] = [
     id: 'al-dente',
     term: 'al dente',
     definition:
-      'Cooked until it still has a slight bite in the centre. Pasta wants to stay there. Risotto rice bound for arancini has to, because it cooks a second time in the fryer.',
+      'Cooked until it still has a slight bite in the centre. Pasta wants be al dente. Risotto rice bound for arancini needs to be, because it cooks a second time in the fryer.',
     aliases: ['al dente'],
   },
   {
@@ -28,7 +28,7 @@ export const glossary: GlossaryTerm[] = [
     id: 'blanch',
     term: 'blanch',
     definition:
-      'A short dip in boiling water, then straight into iced water to stop the cooking dead. It sets the colour in herbs and greens, which is why the herb oil ends up so green.',
+      'A short dip in boiling water, then straight into iced water to stop the cooking. It sets the colour in herbs and greens, which is why the herb oil ends up so green.',
     aliases: ['blanch', 'blanches', 'blanched', 'blanching'],
   },
   {
@@ -43,14 +43,14 @@ export const glossary: GlossaryTerm[] = [
     id: 'crumb',
     term: 'crumb',
     definition:
-      'The inside of a loaf: the holes and the texture, as opposed to the crust. An open crumb (big, irregular holes) is the reward for a wet dough and a patient prove.',
+      'The inside of a loaf: the holes and the texture, as opposed to the crust. An open crumb (big, irregular holes) is what you want from a wet dough and a patient prove.',
     aliases: ['crumb'],
   },
   {
     id: 'cure',
     term: 'cure',
     definition:
-      'Preserving meat or fish with salt, which pulls out moisture and keeps the dangerous things at bay. The salt ratios matter more here than anywhere else in cooking: weigh them properly.',
+      'Preserving meat or fish with salt, which pulls out moisture and keeps the dangerous stuff at bay. The salt ratios mean more here than anywhere else in cooking: weigh them properly.',
     aliases: ['cure', 'cures', 'cured', 'curing'],
   },
   {
@@ -114,7 +114,7 @@ export const glossary: GlossaryTerm[] = [
     id: 'poolish',
     term: 'poolish',
     definition:
-      'A French pre-ferment: equal weights of flour and water with a pinch of yeast, mixed the night before and added to a dough in place of using yeast directly. All it needs is time, and it pays you back in flavour and crumb.',
+      'A French pre-ferment: equal weights of flour and water with a pinch of yeast, mixed the night before and added to a dough in place of using yeast directly. All it needs is time.',
     aliases: ['poolish', 'pre-ferment', 'pre-ferments'],
     entry: 'poolish',
   },
@@ -170,9 +170,6 @@ export function mentionsTerm(term: GlossaryTerm, body: string): boolean {
   return termPattern(term).test(prose);
 }
 
-const escapeHtml = (value: string) =>
-  value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-
 // Tags whose contents should never gain glossary links
 const skipTag = /^(?:a|code|pre|h[1-6]|script|style)$/;
 
@@ -180,11 +177,8 @@ export interface GlossaryLinkState {
   linked: Set<string>;
 }
 
-// Wrap the first mention of each glossary term in a link to the appendix
-// page, with the definition embedded as a hidden span that surfaces as a
-// hover/focus popover. The span sits inside the anchor so hovering the
-// popover keeps it open; aria-hidden keeps the link's accessible name to
-// just the term. State is shared across calls so a post split into
+// Wrap the first mention of each glossary term in a link to its definition
+// on the appendix page. State is shared across calls so a post split into
 // fragments still links each term once. Mentions of a term on its own
 // entry page are left alone (the appendix would only point straight back).
 export function linkGlossaryTerms(
@@ -215,16 +209,9 @@ export function linkGlossaryTerms(
       if (!best) return result + rest;
 
       state.linked.add(best.term.id);
-      const pop =
-        `<span class="o-term__pop" aria-hidden="true">` +
-        `<span class="o-term__pop-head">` +
-        `<span class="o-term__pop-term">${escapeHtml(best.term.term)}</span>` +
-        `<span class="o-term__pop-hint">appendix →</span>` +
-        `</span>` +
-        `${escapeHtml(best.term.definition)}</span>`;
       result +=
         rest.slice(0, best.index) +
-        `<a class="o-term" href="/appendix/#${best.term.id}">${best.match}${pop}</a>`;
+        `<a class="o-term" href="/appendix/#${best.term.id}">${best.match}</a>`;
       rest = rest.slice(best.index + best.match.length);
     }
   };
