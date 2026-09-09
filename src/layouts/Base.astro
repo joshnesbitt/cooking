@@ -5,15 +5,14 @@ import '../styles/index.scss';
 interface Props {
   title?: string;
   description?: string;
-  isPost?: boolean;
   slug?: string;
 }
 
-const { title, description, isPost = false, slug } = Astro.props;
+const { title, description, slug } = Astro.props;
 
 const metaUrl = new URL(Astro.url.pathname, config.domain).href;
-const metaTitle = isPost && title ? `${title} · ${config.title}` : config.title;
-const metaDescription = (isPost && description) || config.description;
+const metaTitle = title ? `${title} · ${config.title}` : config.title;
+const metaDescription = description || config.description;
 // Every page gets a generated ledger card (see pages/og/[slug].png.ts)
 const metaImage = new URL(`/og/${slug ?? 'default'}.png`, config.domain).href;
 ---
@@ -48,6 +47,8 @@ const metaImage = new URL(`/og/${slug ?? 'default'}.png`, config.domain).href;
     <div class="o-container">
       <div class="o-footer">
         <p>
+          <a href="/appendix/">Appendix</a>
+          ·
           <a href="https://joshnesbitt.dev">Josh Nesbitt</a>
           ·
           <a href="https://instagram.com/joshnesbitt">Instagram</a>
