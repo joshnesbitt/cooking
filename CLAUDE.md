@@ -49,3 +49,7 @@ Never use: delve, deep dive (use "dig into"), elevate (as food-writing filler), 
 ## The test
 
 Before committing any prose, ask: "What makes this read like it came from a prompt?" If every sentence is the same length, if there are no opinions, if it could sit on any recipe site, rewrite it. Slightly rough edges and honest admissions are the voice. Authenticity over polish.
+
+## Recipe feed
+
+`/recipes.json` (`src/pages/recipes.json.ts`) is built from the posts and imported by the home planner (home.nesbitts.family). It reads the `## Ingredients` and `## Method` list items (prose lines between them are skipped) and the `## Notes` text, so keep those headings. Add fields to the feed freely, but don't rename or remove existing ones.
